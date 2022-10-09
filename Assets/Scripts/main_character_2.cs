@@ -1,0 +1,344 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
+using UnityEngine;
+
+public class main_character_2 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    Animator animator;
+    Rigidbody2D rb;
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+
+        //start up
+        currentAnimation = "stand";
+        ChangeAnimation(currentAnimation);
+        rb.freezeRotation = true;
+        cam = Camera.main;
+        startCameraScale = cam.orthographicSize;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        MovingProcess();
+        CopySpell();
+        upScale();
+
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        Vector3 hit = collision.contacts[0].normal;
+        float angle = Vector3.Angle(hit, Vector3.up);
+        //var speed = lastVelocity.magnitude;
+
+        if (Mathf.Approximately(angle, 0))
+        {
+            //Down
+            Debug.Log(isFloating);
+            isFloating = false;
+        }
+
+        if (Mathf.Approximately(angle, 180))
+        {
+            //Up
+            Debug.Log("Up");
+            rb.velocity = new Vector2(lastVelocity.x, -lastVelocity.y) * 0.5f;
+
+
+        }
+        if (Mathf.Approximately(angle, 90))
+        {
+            // Sides
+            Vector3 cross = Vector3.Cross(Vector3.forward, hit);
+            if (cross.y > 0)
+            { // left side of the player
+                Debug.Log("Left");
+            }
+            else
+            { // right side of the player
+                Debug.Log("Right");
+            }
+        }
+    }
+    bool isFloating = true;
+    bool directionRight = true;
+    Vector3 lastVelocity;
+    float LastTimeInteract;
+
+    void standCheck()
+    {
+        if (Input.anyKey)
+        {
+            LastTimeInteract = Time.time;
+        }
+
+        if (Time.time - LastTimeInteract >= 0.2)
+        {
+            ChangeAnimation("stand");
+        }
+    }
+    void MovingProcess()
+    {
+        standCheck();
+
+
+        if ((Input.GetKey(KeyCode.UpArrow)|| Input.GetKey(KeyCode.W)) && !isFloating)
+        {
+            ChangeAnimation("jump");
+            Action("jump", null);
+            isFloating = true;
+
+        }
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            if (!directionRight)
+                transform.localScale = new Vector3(gameObject.transform.localScale.x * -1.0f,
+                    gameObject.transform.localScale.y,
+                    gameObject.transform.localScale.z);
+
+            Action("run", "right");
+            ChangeAnimation("run");
+            directionRight = true;
+
+        }
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            if (directionRight)
+                transform.localScale = new Vector3(gameObject.transform.localScale.x * -1.0f,
+                    gameObject.transform.localScale.y,
+                    gameObject.transform.localScale.z);
+            ChangeAnimation("run");
+            Action("run", "left");
+            directionRight = false;
+
+        }
+
+        if (Input.GetMouseButton(1))
+        {
+            if (isFloating)
+                ChangeAnimation("jump_attack");
+            else
+            {
+                ChangeAnimation("normal_attack");
+            }
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+
+            if (directionRight)
+                Action("slide", "right");
+            else Action("slide", "left");
+            ChangeAnimation("slide");
+
+        }
+        //if (Input.GetKey(KeyCode.T))
+        //{
+        //    if (isFloating)
+        //        ChangeAnimation("jump_throw");
+        //    else ChangeAnimation("throw");
+        //}
+        if (Input.GetMouseButton(0))
+        {
+            if (isFloating)
+                ChangeAnimation("jump_throw");
+            else ChangeAnimation("throw");
+        }
+        lastVelocity = rb.velocity;
+
+    }
+    float jumpVelocity = 20f;
+    float runVelocity = 10f;
+    float slideVelocity = 20f;
+    void Action(string actionName, string direction)
+    {
+        if (actionName == "jump")
+        {
+            rb.velocity = new Vector3(rb.velocity.x, jumpVelocity, 0);
+        }
+        if (actionName == "run")
+        {
+            if (direction == "right")
+                rb.velocity = new Vector3(runVelocity, rb.velocity.y, 0);
+            else
+                rb.velocity = new Vector3(-runVelocity, rb.velocity.y, 0);
+        }
+        if (actionName == "slide")
+        {
+            if (direction == "right")
+                rb.velocity = new Vector3(slideVelocity, rb.velocity.y, 0);
+            else
+                rb.velocity = new Vector3(-slideVelocity, rb.velocity.y, 0);
+        }
+    }
+
+    //Status: building
+    string currentAnimation;
+    //animation name:
+    //- stand
+    //- run
+    //- slide
+    //- throw
+    //- jump
+    //- normal_attack
+    //- jump_throw
+    //- jump_attack
+    //- dead
+    float startTimeAnimation;
+    float endTimeAnimation;
+    bool AnimatorIsPlaying()
+    {
+        return animator.GetCurrentAnimatorStateInfo(0).length >
+               animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
+    }
+    bool AnimatorIsPlaying(string stateName)
+    {
+        return AnimatorIsPlaying() && animator.GetCurrentAnimatorStateInfo(0).IsName(stateName);
+    }
+    void caculateTimeAnimation(string animationName)
+    {
+        startTimeAnimation = Time.time;
+        endTimeAnimation = startTimeAnimation + getTimeOfAAnimation(animationName);
+
+    }
+    void ChangeAnimation(string animationName)
+    {
+
+        if (currentAnimation != "dead")
+        {
+            //xet theo hanh dong chinh
+            if (animationName == "stand" || animationName.Contains("attack")
+                || animationName.Contains("throw"))
+            {
+                currentAnimation = animationName;
+                animator.Play(currentAnimation);
+                caculateTimeAnimation(currentAnimation);
+                return;
+            }
+            switch (currentAnimation)
+            {
+                case "jump":
+
+                    switch (animationName)
+                    {
+                        case "jump_throw":
+                            currentAnimation = animationName;
+                            animator.Play(currentAnimation);
+                            caculateTimeAnimation(currentAnimation);
+                            break;
+                        case "jump_attack":
+                            currentAnimation = animationName;
+                            animator.Play(currentAnimation);
+                            caculateTimeAnimation(currentAnimation);
+                            break;
+                    };
+                    break;
+                case "normal_attack":
+
+                    if (Time.time > endTimeAnimation)
+                    {
+                        currentAnimation = animationName;
+                        animator.Play(currentAnimation);
+                        caculateTimeAnimation(currentAnimation);
+                    }
+                    break;
+                case "jump_attack":
+
+                    if (Time.time > endTimeAnimation)
+                    {
+                        currentAnimation = animationName;
+                        animator.Play(currentAnimation);
+                        caculateTimeAnimation(currentAnimation);
+                    }
+                    break;
+                case "throw":
+
+                    if (Time.time > endTimeAnimation)
+                    {
+                        currentAnimation = animationName;
+                        animator.Play(currentAnimation);
+                        caculateTimeAnimation(currentAnimation);
+                    }
+                    break;
+                case "jump_throw":
+
+                    if (Time.time > endTimeAnimation)
+                    {
+                        currentAnimation = animationName;
+                        animator.Play(currentAnimation);
+                        caculateTimeAnimation(currentAnimation);
+                    }
+                    break;
+
+                default:
+                    currentAnimation = animationName;
+                    animator.Play(currentAnimation);
+                    caculateTimeAnimation(currentAnimation);
+                    break;
+
+            }
+
+
+
+        }
+    }
+
+    float getTimeOfAAnimation(string animationName)
+    {
+        AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
+        foreach (AnimationClip clip in clips)
+        {
+            if (animationName == clip.name)
+            {
+                return clip.length;
+            }
+        }
+        return 0;
+
+    }
+    ////////////////
+
+    //Skills
+    public GameObject copyspell_character;
+    int i = 1;
+    public int sizeXCopySpell = 5;
+    void CopySpell()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Instantiate(copyspell_character,
+                new Vector3(transform.position.x - sizeXCopySpell , transform.position.y, 0), Quaternion.identity);
+            i++;
+        }
+    }
+    public Camera cam;
+    public float startCameraScale;
+    public float speedFollowCam = 10;
+    void upScale()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            gameObject.transform.localScale = gameObject.transform.localScale * 1.5f;
+            gameObject.transform.Translate(new Vector3(0, 5, 0));
+            jumpVelocity *= 1.5f;
+            speedFollowCam += 5;
+            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, cam.orthographicSize + 4, Time.deltaTime * 10);
+        }
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            gameObject.transform.localScale = gameObject.transform.localScale / 1.5f;
+            jumpVelocity /= 1.5f;
+            speedFollowCam -= 5;
+            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, cam.orthographicSize - 4, Time.deltaTime * 10);
+        }
+    }
+}
