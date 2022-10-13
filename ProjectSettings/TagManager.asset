@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Kunai
+  - Ground
+  - Enemy
+  - Enemy_Weapon
+  - HpBar_Character
+  - HpText_Character
+  - GM
   layers:
   - Default
   - TransparentFX
@@ -11,9 +18,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Ground
+  - MenuControl
   - 
   - 
   - 

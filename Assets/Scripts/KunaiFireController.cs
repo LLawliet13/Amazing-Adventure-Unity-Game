@@ -11,6 +11,7 @@ public class KunaiFireController : MonoBehaviour
         firePoint = transform.parent.GetComponent<Transform>();
         mc = transform.parent.parent.parent;
         scale = Mathf.Abs(mc.transform.localScale.x);
+       
     }
     public float delayTime = 0.5f;
     float firedTime = 0;
@@ -38,6 +39,7 @@ public class KunaiFireController : MonoBehaviour
     float scale;
     void shoot()
     {
+        
         Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
             Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
         Vector2 firePointPosition = new Vector2(firePoint.position.x,firePoint.position.y);
@@ -45,4 +47,5 @@ public class KunaiFireController : MonoBehaviour
         kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
         Debug.Log(firePoint.rotation.z);
     }
+    
 }

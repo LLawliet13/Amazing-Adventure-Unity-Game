@@ -39,6 +39,10 @@ public class camera_follow : MonoBehaviour
             }
             transform.position = Vector3.MoveTowards(transform.position, newPosition, speed * Time.deltaTime);
         }
+        else
+        {
+            followObject = GameObject.FindGameObjectWithTag("Player");
+        }
     }
     private Vector3 caculateThreshold()
     {

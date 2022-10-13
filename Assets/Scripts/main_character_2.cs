@@ -277,6 +277,15 @@ public class main_character_2 : MonoBehaviour
                         caculateTimeAnimation(currentAnimation);
                     }
                     break;
+                case "slide":
+
+                    if (Time.time > endTimeAnimation)
+                    {
+                        currentAnimation = animationName;
+                        animator.Play(currentAnimation);
+                        caculateTimeAnimation(currentAnimation);
+                    }
+                    break;
 
                 default:
                     currentAnimation = animationName;
