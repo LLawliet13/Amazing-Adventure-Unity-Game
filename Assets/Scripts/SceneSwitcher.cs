@@ -6,17 +6,28 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
+    public int nextScene;
+    public int prevScene;
+    public int currentScene;
     // Start is called before the first frame update
-    public static void LoadSceneMode(int index)
+    public void LoadNextScene()
     {
 
-        SceneManager.LoadScene(index);
+        SceneManager.LoadScene(nextScene);
     }
-    private static int currentStage = 0;
-    public int CurrentStage { get; set; }
-    public static void Restart()
+    public void LoadPrevScene()
     {
-        SceneManager.LoadScene(currentStage);
+        if (prevScene < 0) Application.Quit();  
+        else
+        SceneManager.LoadScene(prevScene);
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(currentScene);
+    }
+    public void Quit()
+    {
+        Application.Quit();
     }
     
 }

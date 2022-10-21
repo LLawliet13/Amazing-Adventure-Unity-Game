@@ -86,17 +86,29 @@ public class main_character_2 : MonoBehaviour
             ChangeAnimation("stand");
         }
     }
+    void Jump()
+    {
+        ChangeAnimation("jump");
+        Action("jump", null);
+        isFloating = true;
+    }
+    void MoveRight()
+    {
+
+    }
+    void MoveLeft()
+    {
+
+    }
+
     void MovingProcess()
     {
         standCheck();
 
 
-        if ((Input.GetKey(KeyCode.UpArrow)|| Input.GetKey(KeyCode.W)) && !isFloating)
+        if ((Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && !isFloating)
         {
-            ChangeAnimation("jump");
-            Action("jump", null);
-            isFloating = true;
-
+            Jump();
         }
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
@@ -124,12 +136,8 @@ public class main_character_2 : MonoBehaviour
 
         if (Input.GetMouseButton(1))
         {
-            if (isFloating)
-                ChangeAnimation("jump_attack");
-            else
-            {
-                ChangeAnimation("normal_attack");
-            }
+            meleeAttack();
+
         }
         if (Input.GetKey(KeyCode.Space))
         {
@@ -300,6 +308,32 @@ public class main_character_2 : MonoBehaviour
         }
     }
 
+    public Transform attack_point;
+    public float radius = 1.8f;
+    public LayerMask enemies;
+    private float delayAttackTime = 1f;
+    private float attackTime = 0;
+    void meleeAttack()
+    {
+        if (Time.time > attackTime)
+        {
+            if (isFloating)
+                ChangeAnimation("jump_attack");
+            else
+            {
+                ChangeAnimation("normal_attack");
+            }
+
+            Collider2D[] collisions = Physics2D.OverlapCircleAll(attack_point.position, radius, enemies);
+            foreach (Collider2D e in collisions)
+            {
+                e.GetComponent<EnemyStats>().getDamage(10);
+                Debug.LogError("attacked");
+
+            }
+            attackTime = Time.time + delayAttackTime;
+        }
+    }
     float getTimeOfAAnimation(string animationName)
     {
         AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
@@ -324,7 +358,7 @@ public class main_character_2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             Instantiate(copyspell_character,
-                new Vector3(transform.position.x - sizeXCopySpell , transform.position.y, 0), Quaternion.identity);
+                new Vector3(transform.position.x - sizeXCopySpell, transform.position.y, 0), Quaternion.identity);
             i++;
         }
     }

@@ -6,6 +6,8 @@ public class KunaiFireController : MonoBehaviour
 {
     // Start is called before the first frame update
     Transform firePoint;
+    Transform mc;
+
     void Start()
     {
         firePoint = transform.parent.GetComponent<Transform>();
@@ -19,6 +21,7 @@ public class KunaiFireController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(mc.name == "MainCharacter")
         if(delayTime == 0)
         {
             if (Input.GetMouseButton(0))
@@ -35,9 +38,8 @@ public class KunaiFireController : MonoBehaviour
             }
         }
     }
-    Transform mc;
     float scale;
-    void shoot()
+    public void shoot()
     {
         
         Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
@@ -47,5 +49,6 @@ public class KunaiFireController : MonoBehaviour
         kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
         Debug.Log(firePoint.rotation.z);
     }
+    
     
 }

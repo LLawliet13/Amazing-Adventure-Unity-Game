@@ -6,6 +6,11 @@ using UnityEngine.UI;
 
 public class EnemyStats : MonoBehaviour
 {
+    //
+    List<string> unbreakable = new List<string>
+    {
+        "Boss_kakashi"
+    };
     // Start is called before the first frame update
     public int HP = 10;
     public int DEF = 10;
@@ -46,6 +51,11 @@ public class EnemyStats : MonoBehaviour
         HpBarRect.localScale = new Vector3(value, HpBarRect.localScale.y, HpBarRect.localScale.z);
         HpText.text = current +"/"+max+" HP";
     }
+    public void getDamage(int damage)
+    {
+        this.currentHP -= (int)(damage/DEF);
+        setHp(currentHP, HP);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -54,7 +64,8 @@ public class EnemyStats : MonoBehaviour
         //    this.HP -= (int)WeaponStats.kunai / DEF;
         //    Debug.Log("Damaged");
         //}
-        if(collision.gameObject.tag == "Kunai") { 
+        if(collision.gameObject.tag == "Kunai") {
+            if (transform.name == "Boss_kakashi") return;// kakashi mien nhiem sat thuong cua kunai
         this.currentHP -= (int)WeaponStats.kunai / DEF;
         setHp(currentHP, HP);
         Debug.Log(this.currentHP);

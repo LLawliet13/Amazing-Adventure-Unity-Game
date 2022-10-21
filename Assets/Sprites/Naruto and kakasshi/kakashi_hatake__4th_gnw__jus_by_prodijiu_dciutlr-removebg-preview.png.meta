@@ -1,0 +1,5763 @@
+fileFormatVersion: 2
+guid: f07a7c1be8d870341b0e940334a15103
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2893
+        width: 168
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe569287d3bc524eb23bcfbd7346854
+      internalID: -406501053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2894
+        width: 50
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda242619b7287a42922a4878c7ac1d7
+      internalID: -1334596315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2518
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb5db3f1c852ba4680a7498b52909a4
+      internalID: 1964710579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2520
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194a5ccb0960ec841b0ce255ae0572f1
+      internalID: -1062614254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2520
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb1fa9100efe40439f2b52009ca2735
+      internalID: 1353469219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2520
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5fa62d1f604ad4c9116b25ea3af438
+      internalID: -647535552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2447
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ee9a73503f2bf4d96c810208eca0dc
+      internalID: 788607270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2446
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151e3f918272b8c43b9b993bdadbfe10
+      internalID: -1475385673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2446
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63867ce1680f6bf4c86f350783de6ca5
+      internalID: 311686268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2446
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08104e0012289e4b8b0f82c87f662b9
+      internalID: -1442815149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2448
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102c804c8e3eef64b8f2a53e22f878df
+      internalID: -250351872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2447
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd853a5ce4dc80a459e7f36024911930
+      internalID: 285377470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2447
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ce63fe32e1f44eb3c3f70d8403b8f
+      internalID: 349384006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2447
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e577fbddda559409543dc47b0551b9
+      internalID: 770537526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2354
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7748eb639bd47f4aa986b6a436178ab
+      internalID: -82605585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2361
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e140517b18c065647bceff569dbb244c
+      internalID: -1382270811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2361
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2b97fe828426743af5261bdde3efee
+      internalID: -905148731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2361
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc065ecead41b3f4ea61b15a8d30a093
+      internalID: -793263560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2361
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34a91cb7293d6a489948de4bbf5e06e
+      internalID: 1859683312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2361
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f847bf24f62f00c49a792ef4486dc492
+      internalID: -858290155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2354
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f1529734561de4bb6edcea39b52b2c
+      internalID: -747236924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2353
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cc30c4bd0620444add5808e0bdffdf
+      internalID: -1439124415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2354
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb44b3992a1aa2645ac42c3e09de7606
+      internalID: -731940787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 2358
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e727c249616874ab96a11a37cd17f4
+      internalID: -1762568364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2358
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5546f7ff64f9f254c8210039e0ab4a13
+      internalID: -596444939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2360
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3284be33a84c88d4f9b7ab433017d8c3
+      internalID: 1603890173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2270
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c38023c3313794a9428afbeeb2f07e
+      internalID: 2023976285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2270
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f03d213afee38345b37088f98996c53
+      internalID: -818505724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2270
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a5da1ce306f344590cf6ff7c4831f8
+      internalID: 1369762596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2193
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc42ccb9a5ea1a46aa085199a90f2df
+      internalID: -6204443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2194
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f49f007a79687743a320f692c486ea3
+      internalID: -958906297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2194
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfa3ac00cab296489ce9ffa3b190dd2
+      internalID: 651282519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2196
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8b4a69cc0c6084f9892b855579f909
+      internalID: 1441425305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2183
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226844415512720438236049db4ce18f
+      internalID: 623969309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 2196
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3c4cfd665e3f14c82eb3c9a6066989
+      internalID: -265327744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2183
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6a8197e05e213489841967fa7cc03d
+      internalID: -1439490308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 2183
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801582cbbc6e4244cb2db9db6a2edd81
+      internalID: -1485183719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2187
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c460b796b47c92f48ae9af76fd00c898
+      internalID: 821119992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2187
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc303816f14db948b93912def3f00f0
+      internalID: -298765898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2183
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05dc89e6d5443bf4eab8c0aae03c16dc
+      internalID: -263990123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2085
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8ee614cf92cae4480b6ff21baafba6
+      internalID: 1279396610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2085
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6b48dac44777340983d4f7f306e2f1
+      internalID: -1119292854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2085
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a8f086090cee040941ad1ce00965e9
+      internalID: 34584234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2085
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b59717c6da63e541832925fab6aa2c1
+      internalID: 974907545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 2085
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab98b7f817b1d66478d6a1ff5b29886c
+      internalID: -722563563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2085
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd03c07ec8744548ad5988bcbebf3be
+      internalID: 931531056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1979
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f343291c2d0a3364794f22244796bafc
+      internalID: -744111162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1979
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafb1d36c1a4f8f4d851228467aed9f7
+      internalID: 1582841919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1979
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eae16a82e2bfd04fbf04c9379901786
+      internalID: 930955123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1979
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e303b77140a7a4ea732e5d9e72dd92
+      internalID: -1153861414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1979
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130d5d6a9155ce347ad21b41e6c2e521
+      internalID: 215215481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1979
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b2c6411b1bfd34db15cd3e1486dcf1
+      internalID: -1068486430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1979
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152fec760502d5b4ab20d1e9e6e3f58f
+      internalID: -1491039015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1979
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90e756713275e146892bd53ff2e0d49
+      internalID: 1075609622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1979
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82685df51ab7f6949bb647f0bcdf2f47
+      internalID: -1328463497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1979
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945a4560bb7512346a8a56fd4838e9a6
+      internalID: -1422814252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1883
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf9308220ea3e4449face13cb629819
+      internalID: 1371012544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1882
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0f269d8ac4a714a9fc41eae1bb82e5
+      internalID: 1710861203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1882
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ef452da7a233e42b43f75329d2e109
+      internalID: -1310604471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1882
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56899d288d469044ea26cf65366f9a55
+      internalID: 330149996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1883
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c3fe40f9e3e944497c6541db27e653
+      internalID: -508842598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1882
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22502ab74e6ffe54a89e4c4a55bb2a0a
+      internalID: -1510659703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1881
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b01ad650b42a7943ba08096944f209b
+      internalID: 903393800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1882
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc732a9b32deb440af36fbca1fab554
+      internalID: 2136475840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1882
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5430313978cbbf4478a98bc89b1a9a4a
+      internalID: 2127988108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1838
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94502fdde146f4a44a1ee8cf2067c50f
+      internalID: -876042227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1828
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db212de7d733c9469b93bd08a538013
+      internalID: 17342934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1828
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbecd345a37b2ec42bf31bcea4b0bbd5
+      internalID: 1603136593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1825
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f30b1ab127f3c478ba590a0710fb31
+      internalID: 631747552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1828
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7be98ef6f96aa4496f0cb6ddf584dc
+      internalID: -1766563545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1838
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a6e959b9360714b8912ed188316381
+      internalID: -878188097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1838
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea1ce0790fcd3743bb900c041bec1c7
+      internalID: 494938185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1825
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30042e919cfbfc74d9cec6bb88f3ee75
+      internalID: 1363209607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1831
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b68076165c451342a4987a7ace99ab9
+      internalID: 1433035259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1826
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d04f971c6327974f846f98586034950
+      internalID: 1091047480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1781
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab5c0114402cf74fa7ed2f19ffc0304
+      internalID: -416014988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1781
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076199bd34cf9fd428eb55e3838ab930
+      internalID: 1496118505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1781
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16425ffac2c1554ba7450c19434dc2d
+      internalID: 982483141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1781
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55925ba83f5bd13429f288b630abf1f6
+      internalID: -1226780149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1781
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be03c11015fbef4e98257a2523966b9
+      internalID: -499656792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1782
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4830f90e698bf044f91d14235a992449
+      internalID: -326993212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1781
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e517ffdffde2ed46b3a226a61577d85
+      internalID: -643495662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1781
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ec70ba000bab14b9613f76a5fcc4ba
+      internalID: -453003737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1699
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b21d9b245e4ca14e8933d7875ec673f
+      internalID: 667065201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1703
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae05a050413b1847ad03f05da4c3c62
+      internalID: -120798870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1703
+        width: 81
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54a6dc5c97ddbb4daf110e71f2ba526
+      internalID: -1195321299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1703
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69a57ff8e1e13b49924f34ea8cd4331
+      internalID: 1266386681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1703
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c844d1eb477f1e747b883c5327f2640d
+      internalID: -1437612799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1715
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b553ce7b3e09334684dfa91ae34c12d
+      internalID: -1687324030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1712
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134203349613af740ac236ec860e5d51
+      internalID: -1537932612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1712
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3975b8c0a9fa2f4ba31f3f1f4bfca50
+      internalID: -270205127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1712
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f996fb4ad95662146bcc4eb0faf2a862
+      internalID: 927683759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1713
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5df43db93a2e7b4c94047d4b162bfea
+      internalID: -1689339726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1680
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca80acfbf429d049a000859e32526ed
+      internalID: -669187104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1680
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988f1d3b0d7c490459cc11119e21ead6
+      internalID: 276184845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_130
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1680
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dbf534771507b4985c22d2921fc03c
+      internalID: 837463264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_131
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1680
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37f96951fa509f45bc00f1b119a85e0
+      internalID: 274200118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_132
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1680
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab86c1a29b0b07429abd08fe765af0a
+      internalID: -537418094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_135
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1651
+        width: 97
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748d2031898580745aa5f9944e374b70
+      internalID: -393770114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_136
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1650
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8b01795a90d5e41ba38b72d71852fe
+      internalID: 443075598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_137
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1654
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b383879e86399db469a689f87ddc1081
+      internalID: 370425422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_138
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1653
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a194c0cf6965f240a62ae5a056e8dea
+      internalID: -1727872710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_139
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1577
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a07c1688153a6246ba1b8bc7e61bd76
+      internalID: 1334439281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_140
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1564
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61febeabe19a9f74989541b9c9e6d04b
+      internalID: 2097437673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_141
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1564
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b16b7707bbaa449993221869620464
+      internalID: 639041170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_142
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1564
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4fb0a4d54bdd740bfe73ecdf5d8958
+      internalID: -1448056820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_143
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1568
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938cd7b5b83eb8941b778106d1b27d70
+      internalID: 1978396390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_144
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1575
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ea874a06c0474590bfde3d164e2ca
+      internalID: 913663672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_145
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1571
+        width: 88
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693affb5370b1d44eaaf586ecc485d52
+      internalID: -1710436169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_146
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1572
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb1546b2b299714fb3fabcf6ca839a8
+      internalID: 225682011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_147
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1584
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c189ddec2f58043a6e398e62d95691
+      internalID: 1477395255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_148
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1568
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93208ce61847e87449181d7fe5faa8b1
+      internalID: -457967266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_149
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1581
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7371b690af353a4085cadafa093eb69
+      internalID: -27445251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_150
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1575
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2283b3c0c162bd64389a3fb67893ec95
+      internalID: -952023026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_151
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1569
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc4fd093b5b9fc469aca27f470080a5
+      internalID: -1774912374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_155
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1430
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b7b3c33c6f36746bc220cc3f6682f7
+      internalID: -659362364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_156
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1430
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bf0fc8d20510d419b1706eb2e38373
+      internalID: 852351172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_157
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1430
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c5177d586ebd74d9308bc87e2a7afb
+      internalID: -203692638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_158
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1430
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcdd3c8f47b0044e8f55ece0dfd15d5
+      internalID: -1583357002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_159
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1432
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd095b741aff064599a9a7074e9e78a
+      internalID: 498870095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_160
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1432
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef363ecb2920b54fafee65d49ae3a3b
+      internalID: 1184330026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_161
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1432
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176d9b69ca94824468c209f454430246
+      internalID: 1476530522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_162
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1430
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beb08910b069194aa1b492b291be9b9
+      internalID: 1613764495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_164
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1274
+        width: 145
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f4729e8e818c746ae5d83e6699d9d8
+      internalID: 855854158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_165
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1275
+        width: 145
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae3a119d5b720b41a5d43d3d1058a10
+      internalID: -336442944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_166
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1388
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa1c45518779644286fa7e4997b836e
+      internalID: 247116068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_167
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1279
+        width: 145
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faed0f8c101c05488ddd4e35a6f601b
+      internalID: 562342444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_168
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1322
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ccf08901511fd41948b3298ade1f25
+      internalID: 1562567607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_169
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1307
+        width: 76
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e6d772d522acc4591e707ccfea6bfe
+      internalID: -1179670800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_170
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1279
+        width: 146
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411f2258f7d5a5e42a85411cbecfcbe0
+      internalID: 1444011794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_171
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1271
+        width: 145
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79dba73baf31c146a55f3b76a187806
+      internalID: 1659198943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_172
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1276
+        width: 145
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98658c96977ff064e8613071ba3470b2
+      internalID: 276832065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_173
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1274
+        width: 147
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8bcb4431a6a214bbe33338b3312473
+      internalID: 1937212599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_179
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1100
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d8a828c452634438887a5e1bbd6170
+      internalID: -729059639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_180
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1100
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b27e473ec9b28c41a1f62626f51cc37
+      internalID: 1132657325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_181
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1100
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c720a1010123f6e4b885a6942cfdfa9d
+      internalID: 53095865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_182
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1100
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067866140759c31469625f18077aa6f1
+      internalID: -846407298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_183
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1100
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f65ff7a7ce080141a3c167bf349a1b7
+      internalID: 104655974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_185
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 978
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c897a54b9201da4bbca42f3608aee65
+      internalID: -1596048391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_186
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 979
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1bce7bb586d0e4782262c5ffddbf0e
+      internalID: -744091043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_187
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1002
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4a83aae504ad146a57b858fc1e5825
+      internalID: 294991659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_188
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 963
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b633f01664d544bb3dd2a3aaf3c560
+      internalID: 656745663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_189
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 962
+        width: 133
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1695576437c704fb2c0e790acacb4a
+      internalID: -1047460377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_190
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 962
+        width: 128
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccee39689329dc43a5ed0f8200a8611
+      internalID: 1634781853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_191
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 963
+        width: 133
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299c05843df190c46b57611568517010
+      internalID: 175817265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_192
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 963
+        width: 129
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f53cff3dc728947a051884679ca03c
+      internalID: 1956217601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_193
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 963
+        width: 131
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455f65fbf5cbd1f4da35888fbe8d56cd
+      internalID: 241990433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_194
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 954
+        width: 135
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bf371f8b4ab364db7dc8a6893dc58e
+      internalID: -1474572616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_195
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 962
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6214b402b14036498c254dd9240e2d6
+      internalID: -213647380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_196
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 970
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136d1b94654aa0042b2f8fdf110fb42a
+      internalID: 547210088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_197
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 968
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f417ab122bdf3e742bfb0fd0f0e406c3
+      internalID: 894290572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_198
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 970
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6acc5b0cb8e43449814f3e9f7ed6117
+      internalID: 1009334061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_199
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 963
+        width: 84
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ad863235d834240bb70f101d7917d3
+      internalID: -86014341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_203
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 827
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52ab2fdb9aceca49ab73f484bd6d3be
+      internalID: 596185038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_204
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 831
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1496e4237d6c8544d89c275fce6833da
+      internalID: -1089403585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_205
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 772
+        width: 73
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d74a663d4987045a3aa7a62fb5aca8
+      internalID: 1131491721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_206
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 827
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a312df40180a85047ae36a74fdf9697a
+      internalID: -429005329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_207
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 827
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09744181248850241a16db0cca1a9d67
+      internalID: -1539143197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_208
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 811
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a311eabb4be9d49aec0e7fe9fc4924
+      internalID: 957974177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_209
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 810
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c001df5ae269c54284ed118aa33ab43
+      internalID: -1096847714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_210
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 817
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb0e5405f6c2d446b8c8af3cf44bd91
+      internalID: 1027457397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_211
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 818
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0945f00be91187945a2f25ffc066d4c0
+      internalID: 75997243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_212
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 748
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6822b0ad711e0064eb3d48fc854d609c
+      internalID: 534281767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_213
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 748
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8367fbc192857e448aeb500603bca070
+      internalID: 1290619041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_214
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 748
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d66664c99af4841a5d7aaba2d69a5c
+      internalID: -1260537750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_215
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 748
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e2d4dcbc61214d87ea0497c57865c
+      internalID: -519417086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_216
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 749
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359419f1f94660e4d8ad54166c8401e6
+      internalID: 1137546119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_217
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 755
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cae68139acb8f4a819885e66bad6d8
+      internalID: 1168111444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_218
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 765
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fffc25755fa68a44af789d29f3e816f
+      internalID: -2123924535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_219
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 767
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb6d886781fccc4bafa87e0b5577f7e
+      internalID: -1415461309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_221
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 721
+        width: 103
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b473c759eb5928647b2693d5ba0cc619
+      internalID: -1895776215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_222
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 652
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f8d33fdcf76b346bc058e345515ed1
+      internalID: 289618977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_223
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 601
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dec7a153e994b49b0ebc92c83c039c
+      internalID: -238360375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_224
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 591
+        width: 112
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43448173393347e46ac4d51a58516be1
+      internalID: 1951972876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_225
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 604
+        width: 101
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6d3047640db444883347f69fa4343e
+      internalID: -2129322043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_229
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 474
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4a24e84c925ca49bb8b666274cba59
+      internalID: 1275223736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_230
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 474
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec7db828306851418d624eb1920ea6c
+      internalID: 1097426440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_231
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 474
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23fd10923387154698ef842ca4f3e9b
+      internalID: -1160955101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_232
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 474
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df695e231838c2f41b0cd9f00dd5885f
+      internalID: -1964488219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_233
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 474
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e2c252f1bdef14eafe4fcdf128e06e
+      internalID: 1497885418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_234
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 465
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca7400f7d9c4d84fb05ae27510c9da6
+      internalID: 1433350992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_235
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 463
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f862ee8b139a84d93d973d68b92ccf
+      internalID: -70501171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_236
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 464
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627917f8ec2596448b2c49fc1244b601
+      internalID: 2039648025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_237
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 464
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261ac875f51958246af53f507bc32eef
+      internalID: -310997588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_238
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 476
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24225482c2927c4bb73b14016bf896d
+      internalID: 1512630104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_239
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 476
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6038c176afec839418b6a6d84df6f5fb
+      internalID: 901509685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_240
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 479
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a317d1e5223ebf74386f1e984199b8ca
+      internalID: -1190361245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_241
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 479
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afd9bd341763d34ab20f81effe23bf0
+      internalID: -2058771807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_242
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 479
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1448f3cbb1cbc2b4d8fc1e0f9b5d5fc1
+      internalID: -453294834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_243
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 476
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b794ae86d24443c4f8d6a2e920b7a8e6
+      internalID: 1544443939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_245
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 353
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1b8ad724b01c743a9b3606684764b8
+      internalID: 2091258317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_246
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 348
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e91b1da1b125647aa3eeb1b9aeeebd
+      internalID: -987532476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_247
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 359
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8484f5ce2177340afbb08445976eda
+      internalID: -603279777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_248
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 360
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d4f945409312f4b8282f91a20acf46
+      internalID: 1744966950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_249
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 357
+        width: 92
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edabdf502a8da6443ba47076c38e5086
+      internalID: 400957767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_250
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 357
+        width: 92
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a5bcc07ac812429c05bc5ce833c73
+      internalID: 1409279230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_251
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 357
+        width: 65
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea35bd39153cb044abf5b4451771d61
+      internalID: 726461230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_252
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 357
+        width: 58
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6560b5a595c84ef4fae406b5af4404f6
+      internalID: -408850914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_253
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 327
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f6e5281d65a014b8e6f5dab3753dff
+      internalID: -1595824835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_254
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 334
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e803582f5c6187245b227a9238030d61
+      internalID: -263409799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_255
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 328
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baba8f593b718644796f602981b37101
+      internalID: 197739431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_256
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 337
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a247628b9c556d449a89e41ad3f0b327
+      internalID: -1883379661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_257
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 328
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6713091472d6b6541bf35704e70da3ee
+      internalID: -1034308134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_258
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 334
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0eefdcf35d624247ae83c9b8be02c1b
+      internalID: -1730897869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_259
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 344
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de31ada4f4227043875e0ebf33f0e2b
+      internalID: 1848878575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_260
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 357
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bf8612f52328d4ca3cad9a9d9525f2
+      internalID: 2022851006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_261
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 359
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c59cb6ce0b011243af5a0c0cb951c74
+      internalID: -1587808330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_273
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 185
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08460957599d57349b8cbf5f38e78d65
+      internalID: -334692469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_274
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 185
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e16f938cf6a024791841e893dc8058
+      internalID: -368500255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_275
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 186
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0592ca416a27ea498b9c1822b2328c4
+      internalID: -2021197153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_276
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 185
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a22f1997034fd446b66c936ae7caee1
+      internalID: -855436590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_277
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 186
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22467519af2dda478a7d4b59f998bac
+      internalID: 308207773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_278
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 186
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c7cee8970fbfc4fa799e8db34eeb5f
+      internalID: 2077210507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_279
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 185
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c974247c2b31600408a4b420ef0bc9cc
+      internalID: -1693109648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_285
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 24
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5363433ed2987dc44936dea5646a3793
+      internalID: 298078686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_286
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 24
+        width: 26
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478a8132db29e98489e5d47c3cc59101
+      internalID: 481631418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_287
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 25
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560b3ae8f537e604c9f52b20dbe588c9
+      internalID: -140649841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_288
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 25
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03577577405f02f4b9b680c6635b3f4f
+      internalID: -1726403643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_289
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 25
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a356ce9a141a23c4782bb7281246ba59
+      internalID: 2142601969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_290
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 25
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9b10d28750bb74f8b8c969fe6bc093
+      internalID: 1155053736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_291
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 25
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aa031f88c4efd48a676a3fed3e5915
+      internalID: -538383772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_292
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 24
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907b5f15099779c4bbb768c1c875af73
+      internalID: 651879902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 948
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b960d0a9a3ed9c24f86385924a732cbc
+      internalID: 2127085298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2588
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5f4753ad5c8ee48a6c6612e9133c3d
+      internalID: 1325768615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2530
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ba31aa0c59a8642a59b956d7bff712
+      internalID: 1096847553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2427
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a57cbbb18494ed468ce8a558f95f740
+      internalID: 1984347280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2431
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdc738be549c8849a0457a0204901b8
+      internalID: -1316353080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2249
+        width: 88
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea710c20add94543bdf066fceed6bf0
+      internalID: 1062579150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2157
+        width: 107
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e034b6526e5a3bd419a9747bad7acf4c
+      internalID: 1059109100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2147
+        width: 89
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075412990dc120e4bb634c55467ee4f6
+      internalID: -9692267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2062
+        width: 119
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2b9dde33fb2064cba1642f4c116d2d
+      internalID: -1003873309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1953
+        width: 55
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd27e6fc180b24544a995d83f429bd00
+      internalID: -1049326208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1904
+        width: 64
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce380af217e3ac4eaeb49aad76d47d1
+      internalID: -52144245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1861
+        width: 56
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283a5ca4d1a570479e36c7901f88056
+      internalID: -965160182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1776
+        width: 86
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afbcf683c9e52f4eb67a5233a32dbcb
+      internalID: 2032619041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1781
+        width: 62
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b97d71ae660af541854da788ca2c26b
+      internalID: -1738917263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1755
+        width: 104
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdf2909766cfd74780884d735c37067
+      internalID: 791074130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_133
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1689
+        width: 102
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d5182cd231944c8d07cc205b28410
+      internalID: -1110070433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_134
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1650
+        width: 56
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5307a10e2d0f24bafb16654310d5f0
+      internalID: -1659285541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_152
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1517
+        width: 77
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab468df566da9b499e9498c8df38994
+      internalID: -447392130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_153
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1517
+        width: 159
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e06e5f5bb0b854b8cc26f2a0c18f58
+      internalID: -1733046926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_163
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1414
+        width: 104
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa83632c08678e44a58f076be562482
+      internalID: -1290601841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_174
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1215
+        width: 81
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843b9dec33206de4a87d147114efa781
+      internalID: 2117377840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_175
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1215
+        width: 101
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d811bba164ec1e04fa69c4d4282ec93d
+      internalID: -1816647205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_176
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1215
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f493bb7dc032f4ea863d61e26b39fb
+      internalID: 1473884857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_178
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1175
+        width: 151
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2b9f5d74aff2445b1122184ab7a94c
+      internalID: -1766594164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_184
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1070
+        width: 103
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90900d8371088db4a8aea9b52ff6a4e8
+      internalID: 491335808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_200
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 903
+        width: 81
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbe762deef459e4498ee4baf898c20c
+      internalID: -1473401959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_201
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 903
+        width: 74
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0024de15e59103b4e9b919255410c68a
+      internalID: -1004881368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_220
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 619
+        width: 165
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af61ce0b6a76b494182514c5a9bcf17d
+      internalID: -119522443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_226
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 563
+        width: 72
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187505dec9dac3f4e9a416812f8ab540
+      internalID: -2022288331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_244
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 439
+        width: 103
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce22d5db04c76184d825d75a419565fd
+      internalID: -1732116887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_262
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 284
+        width: 66
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ecb7b0c48036e4e872ed5825d60eca
+      internalID: 186851369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_283
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 123
+        width: 100
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b609bcf1df216443809eb3ae21be849
+      internalID: 1706649809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_81: -1491039015
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_247: -603279777
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_249: 400957767
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_214: -1260537750
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_186: -744091043
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_114: -453003737
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_292: 651879902
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_200: -1473401959
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_35: 349384006
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_174: 2117377840
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_29: 788607270
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_40: -1382270811
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_122: -1437612799
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_2: 2127085298
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_178: -1766594164
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_143: 1978396390
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_158: -1583357002
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_189: -1047460377
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_280: 1813281482
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_262: 186851369
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_33: -250351872
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_293: -1682728763
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_10: -1292424559
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_284: 471593142
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_75: -744111162
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_110: -1226780149
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_57: 651282519
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_205: 1131491721
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_201: -1004881368
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_166: 247116068
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_179: -729059639
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_34: 285377470
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_204: -1089403585
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_43: 1859683312
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_99: 1603136593
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_290: 1155053736
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_242: -453294834
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_30: -1475385673
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_278: 2077210507
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_281: -990867063
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_251: 726461230
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_67: -9692267
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_133: -1110070433
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_210: 1027457397
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_283: 1706649809
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_269: 1079865171
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_28: -615551493
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_120: -1195321299
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_286: 481631418
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_0: -406501053
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_256: -1883379661
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_261: -1587808330
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_97: -965160182
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_230: 1097426440
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_76: 1582841919
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_149: -27445251
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_173: 1937212599
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_244: -1732116887
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_100: 631747552
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_108: 1496118505
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_228: 645118297
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_176: 1473884857
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_250: 1409279230
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_71: 974907545
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_233: 1497885418
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_185: -1596048391
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_168: 1562567607
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_264: 544943853
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_195: -213647380
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_93: 2136475840
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_181: 53095865
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_105: 1433035259
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_24: 1096847553
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_184: 491335808
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_285: 298078686
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_275: -2021197153
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_156: 852351172
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_170: 1444011794
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_272: -1458478307
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_148: -457967266
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_287: -140649841
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_157: -203692638
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_276: -855436590
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_45: -747236924
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_279: -1693109648
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_111: -499656792
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_23: -647535552
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_59: 623969309
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_225: -2129322043
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_224: 1951972876
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_208: 957974177
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_155: -659362364
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_119: -120798870
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_107: -416014988
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_55: -6204443
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_182: -846407298
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_79: 215215481
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_12: 547735686
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_163: -1290601841
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_130: 837463264
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_139: 1334439281
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_125: -270205127
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_151: -1774912374
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_25: -847089180
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_192: 1956217601
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_175: -1816647205
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_142: -1448056820
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_215: -519417086
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_69: -1119292854
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_239: 901509685
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_65: -263990123
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_68: 1279396610
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_197: 894290572
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_199: -86014341
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_14: 1788169558
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_248: 1744966950
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_245: 2091258317
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_39: -82605585
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_70: 34584234
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_6: -829475673
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_118: 667065201
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_135: -393770114
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_42: -793263560
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_74: -1003873309
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_63: 821119992
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_4: 195439207
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_87: 1710861203
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_238: 1512630104
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_132: -537418094
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_150: -952023026
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_85: -1049326208
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_56: -958906297
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_220: -119522443
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_18: 1325768615
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_241: -2058771807
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_194: -1474572616
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_258: -1730897869
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_11: -1545176114
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_17: -271874805
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_131: 274200118
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_236: 2039648025
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_257: -1034308134
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_273: -334692469
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_213: 1290619041
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_27: -20081483
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_167: 562342444
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_62: -1485183719
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_92: 903393800
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_152: -447392130
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_190: 1634781853
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_50: 1603890173
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_47: -731940787
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_90: -508842598
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_7: 406127741
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_227: 501819851
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_15: 661985030
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_52: -818505724
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_1: -1334596315
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_203: 596185038
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_169: -1179670800
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_289: 2142601969
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_84: -1422814252
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_165: -336442944
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_5: -1647722013
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_253: -1595824835
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_153: -1733046926
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_124: -1537932612
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_112: -326993212
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_211: 75997243
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_159: 498870095
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_219: -1415461309
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_254: -263409799
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_64: -298765898
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_282: 1415262385
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_66: 1059109100
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_138: -1727872710
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_95: -52144245
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_216: 1137546119
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_3: 1568586084
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_38: -1316353080
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_22: 1353469219
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_13: -543235295
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_231: -1160955101
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_160: 1184330026
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_48: -1762568364
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_265: -1880310631
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_255: 197739431
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_141: 639041170
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_137: 370425422
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_198: 1009334061
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_144: 913663672
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_83: -1328463497
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_243: 1544443939
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_221: -1895776215
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_94: 2127988108
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_109: 982483141
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_128: -669187104
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_188: 656745663
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_121: 1266386681
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_207: -1539143197
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_291: -538383772
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_288: -1726403643
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_268: 329671418
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_16: 1246446181
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_31: 311686268
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_72: -722563563
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_274: -368500255
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_136: 443075598
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_177: -970015471
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_49: -596444939
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_180: 1132657325
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_116: -1738917263
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_218: -2123924535
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_229: 1275223736
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_267: -1015932988
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_145: -1710436169
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_58: 1441425305
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_146: 225682011
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_270: 1608441403
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_89: 330149996
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_129: 276184845
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_41: -905148731
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_263: -2008514393
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_164: 855854158
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_96: -876042227
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_36: 770537526
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_147: 1477395255
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_19: 1083418156
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_223: -238360375
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_226: -2022288331
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_206: -429005329
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_126: 927683759
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_86: 1371012544
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_212: 534281767
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_161: 1476530522
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_106: 1091047480
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_162: 1613764495
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_73: 931531056
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_20: 1964710579
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_60: -265327744
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_104: 1363209607
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_77: 930955123
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_61: -1439490308
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_183: 104655974
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_154: 1878141630
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_237: -310997588
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_191: 175817265
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_32: -1442815149
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_232: -1964488219
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_53: 1369762596
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_98: 17342934
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_9: 69455553
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_127: -1689339726
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_88: -1310604471
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_172: 276832065
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_117: 791074130
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_51: 2023976285
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_193: 241990433
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_202: 315081525
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_209: -1096847714
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_234: 1433350992
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_235: -70501171
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_78: -1153861414
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_277: 308207773
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_134: -1659285541
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_187: 294991659
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_102: -878188097
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_123: -1687324030
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_91: -1510659703
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_26: 738391803
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_44: -858290155
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_196: 547210088
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_80: -1068486430
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_115: 2032619041
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_217: 1168111444
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_101: -1766563545
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_171: 1659198943
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_246: -987532476
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_240: -1190361245
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_103: 494938185
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_37: 1984347280
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_54: 1062579150
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_140: 2097437673
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_222: 289618977
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_252: -408850914
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_46: -1439124415
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_271: 1503611326
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_8: -1058706142
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_82: 1075609622
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_266: 1106691760
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_21: -1062614254
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_113: -643495662
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_259: 1848878575
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_260: 2022851006
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

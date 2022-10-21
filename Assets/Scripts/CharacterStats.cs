@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -84,4 +85,9 @@ public class CharacterStats : MonoBehaviour
         }
     }
 
+    internal void getDamage(int v)
+    {
+        this.currentHP -= (int)(v / DEF);
+        setHp(currentHP, HP);
+    }
 }

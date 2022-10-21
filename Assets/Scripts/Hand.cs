@@ -10,10 +10,21 @@ public class Hand : MonoBehaviour
         
     }
     public int rotationOffset;
+    Vector3 diff;
     // Update is called once per frame
     void Update()
     {
-        Vector3 diff = Camera.main.ScreenToWorldPoint(Input.mousePosition)- transform.position;
+        if(transform.parent.name == "MainCharacter")
+        diff = Camera.main.ScreenToWorldPoint(Input.mousePosition)- transform.position;
+        if(transform.parent.name == "Boss_kakashi")
+        {
+            GameObject mainCharacter = GameObject.FindGameObjectWithTag("Player");
+            if (mainCharacter == null)
+                return;
+
+            diff = mainCharacter.transform.position - transform.position;
+        }
+
         diff = diff.normalized;
         float rotZ = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ + rotationOffset);

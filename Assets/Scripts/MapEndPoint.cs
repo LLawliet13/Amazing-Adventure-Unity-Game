@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MapEndPoint : MonoBehaviour
 {
@@ -15,8 +16,10 @@ public class MapEndPoint : MonoBehaviour
     {
         
     }
+    public int nextMap;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneSwitcher.LoadSceneMode(2);
+        if(collision.gameObject.tag=="Player")
+            SceneManager.LoadScene(nextMap);
     }
 }
