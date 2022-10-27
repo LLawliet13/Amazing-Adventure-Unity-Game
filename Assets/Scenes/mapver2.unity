@@ -3526,11 +3526,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1388438300447749892, guid: 1eb1320670a6a6d42b1e8bfe70f8aae0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.2059
+      value: -19.39
       objectReference: {fileID: 0}
     - target: {fileID: 1388438300447749892, guid: 1eb1320670a6a6d42b1e8bfe70f8aae0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.772995
+      value: 0.62
       objectReference: {fileID: 0}
     - target: {fileID: 1388438300447749892, guid: 1eb1320670a6a6d42b1e8bfe70f8aae0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4904,7 +4904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1006296169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5617,6 +5617,7 @@ GameObject:
   - component: {fileID: 1146019026}
   - component: {fileID: 1146019025}
   - component: {fileID: 1146019027}
+  - component: {fileID: 1146019029}
   m_Layer: 7
   m_Name: Terrain
   m_TagString: Ground
@@ -34010,6 +34011,27 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!50 &1146019029
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146019023}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1186081809
 GameObject:
   m_ObjectHideFlags: 0
@@ -34265,7 +34287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1250294111
 RectTransform:
   m_ObjectHideFlags: 0
@@ -38384,6 +38406,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7723505821138949667, guid: 2c9e5e1f3120acf4dbbfcb495038a756, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723505821138949668, guid: 2c9e5e1f3120acf4dbbfcb495038a756, type: 3}
+      propertyPath: copyspell_character
+      value: 
+      objectReference: {fileID: 462627387310550219, guid: addc72baa06d2f04099715af5f7bed9a, type: 3}
     - target: {fileID: 7723505821138949671, guid: 2c9e5e1f3120acf4dbbfcb495038a756, type: 3}
       propertyPath: m_Name
       value: MainCharacter
@@ -38394,11 +38424,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723505821138949695, guid: 2c9e5e1f3120acf4dbbfcb495038a756, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.1
+      value: -68.4
       objectReference: {fileID: 0}
     - target: {fileID: 7723505821138949695, guid: 2c9e5e1f3120acf4dbbfcb495038a756, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 116.9
+      value: -2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7723505821138949695, guid: 2c9e5e1f3120acf4dbbfcb495038a756, type: 3}
       propertyPath: m_LocalPosition.z
