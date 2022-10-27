@@ -23,7 +23,7 @@ public class camera_follow : MonoBehaviour
         if (followObject != null)
         {
             speed = speed * (Math.Abs(followObject.transform.localScale.x / scaleFollowObject.x));
-            Debug.Log(speed);
+            //Debug.Log(speed);
             scaleFollowObject = followObject.transform.localScale;
             Vector2 follow = followObject.transform.position;
             float xDiff = Vector2.Distance(Vector2.right * transform.position.x, Vector2.right * follow.x);

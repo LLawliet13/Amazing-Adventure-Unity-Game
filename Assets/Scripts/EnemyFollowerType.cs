@@ -53,8 +53,9 @@ public class EnemyFollowerType : MonoBehaviour
 
     private void OnPathComplete(Path p)
     {
-        if (p.error)
-            Debug.LogError("this path has some problem to create");
+        if (p.error) {
+            //Debug.LogError("this path has some problem to create");
+        }
         else
         {
             path = p;

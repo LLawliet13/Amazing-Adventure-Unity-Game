@@ -17,7 +17,8 @@ public class Kakashi_boss : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        Physics2D.IgnoreCollision(A, GetComponent<BoxCollider2D>(), true);
+        Physics2D.IgnoreCollision(GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>()
+, GetComponent<BoxCollider2D>(), true);
         //start up
         currentAnimation = "stand";
         ChangeAnimation(currentAnimation);
@@ -29,6 +30,12 @@ public class Kakashi_boss : MonoBehaviour
     void Update()
     {
         //StartCoroutine(check());
+        try
+        {
+            Physics2D.IgnoreCollision(GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>()
+, GetComponent<BoxCollider2D>(), true);
+        }
+        catch { }
         Mechanics();
         //MovingProcess();
         //CopySpell();
@@ -70,7 +77,7 @@ public class Kakashi_boss : MonoBehaviour
             // return neu k tim thay
             if (followChar == null)
             {
-                
+
 
                 return;
             }
@@ -84,7 +91,8 @@ public class Kakashi_boss : MonoBehaviour
             || currentCharLocation.x < leftRange.position.x || currentCharLocation.x > rightRange.position.x)
         {
             transform.position = startLocation.position;
-            if (Time.time > timeToNextAction && animationDelay == false) {
+            if (Time.time > timeToNextAction && animationDelay == false)
+            {
                 stand();
             }
             return;
@@ -109,10 +117,10 @@ public class Kakashi_boss : MonoBehaviour
         if (Time.time > timeToNextAction)
         {
 
-            if (Mathf.Abs(currentCharLocation.y - currentBossLocation.y) > 3|| animationDelay == true)
+            if (Mathf.Abs(currentCharLocation.y - currentBossLocation.y) > 3 || animationDelay == true)
             {
-                if(animationDelay==false)
-                stand();
+                if (animationDelay == false)
+                    stand();
                 Transform Hand = getChildByName("Hand", transform);
                 Transform fightPoint = getChildByName("FirePoint", Hand);
                 if (Time.time > timeToNextUseTurnTL)
@@ -238,7 +246,7 @@ public class Kakashi_boss : MonoBehaviour
     Vector3 lastVelocity;
     float LastTimeInteract;
 
-    
+
     void stand()
     {
         ChangeAnimation("stand");
@@ -272,7 +280,7 @@ public class Kakashi_boss : MonoBehaviour
         directionRight = false;
     }
 
-    
+
     float jumpVelocity = 20f;
     float runVelocity = 20f;
     float slideVelocity = 20f;

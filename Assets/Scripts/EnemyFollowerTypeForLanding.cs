@@ -47,7 +47,13 @@ public class EnemyFollowerTypeForLanding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        try
+        {
+            target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        }catch(Exception e)
+        {
 
+        }
 
     }
 

@@ -14,7 +14,7 @@ public class Hand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.parent.name == "MainCharacter")
+        if(transform.parent.name == "MainCharacter"||transform.parent.tag=="Player")
         diff = Camera.main.ScreenToWorldPoint(Input.mousePosition)- transform.position;
         if(transform.parent.name == "Boss_kakashi")
         {
@@ -29,4 +29,5 @@ public class Hand : MonoBehaviour
         float rotZ = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ + rotationOffset);
     }
+    
 }

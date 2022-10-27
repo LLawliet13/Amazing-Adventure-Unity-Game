@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,24 +22,79 @@ public class KunaiFireController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(mc.name == "MainCharacter")
-        if(delayTime == 0)
-        {
-            if (Input.GetMouseButton(0))
-            {
-                shoot();
-            }
-        }
-        else
-        {
-            if(Input.GetMouseButton(0)&& Time.time > firedTime)
-            {
-                shoot();
-                firedTime = Time.time + delayTime;
-            }
-        }
+        //if(mc.tag == "Player")
+        //if(delayTime == 0)
+        //{
+        //    if (Input.GetMouseButton(0))
+        //    {
+        //            Debug.Log("shooted");
+        //        shoot();
+        //    }
+        //}
+        //else
+        //{
+        //    if(Input.GetMouseButton(0)&& Time.time > firedTime)
+        //    {
+        //            Debug.Log("shooted");
+        //        shoot();
+        //        firedTime = Time.time + delayTime;
+        //    }
+        //}
     }
     float scale;
+    int rotationOffset = 0;
+    public void shootAuto()
+    {
+        GameObject target = AutoDetect();
+        if (target != null)
+        {
+            Debug.Log(target.name);
+            Vector3 diff = target.transform.position - transform.position;
+            diff = diff.normalized;
+            float rotZ = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            transform.parent.rotation = Quaternion.Euler(0, 0, rotZ + rotationOffset);
+            
+            Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
+            Transform kunai = Instantiate(KunaiPrefab, firePointPosition, transform.parent.rotation);
+            kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
+        }
+    }
+    public float camEdgePosition(String edge)
+    {
+        Camera cam = Camera.main;
+        if (cam)
+        {
+            if (edge == "bottom")
+                return cam.ViewportToWorldPoint(new Vector3(0f, 0f, 0f)).y;
+            if (edge == "right")
+                return cam.ViewportToWorldPoint(new Vector3(1.0f, 0f, 0f)).x;
+            if (edge == "top")
+                return cam.ViewportToWorldPoint(new Vector3(0f, 1.0f, 0f)).y;
+            if (edge == "left")
+                return cam.ViewportToWorldPoint(new Vector3(0f, 0f, 0f)).x;
+        }
+        return 0.0f;
+
+    }
+    public GameObject AutoDetect()
+    {
+        float left = camEdgePosition("left");
+        float right = camEdgePosition("right");
+        float bottom = camEdgePosition("bottom");
+        float top = camEdgePosition("top");
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach (var enemy in enemies)
+        {
+            float x = enemy.transform.position.x;
+            float y = enemy.transform.position.y;
+            if (x >= left && x <= right &&
+                y >= bottom && y <= top)
+            {
+                return enemy;
+            }
+        }
+        return null;
+    }
     public void shoot()
     {
         
@@ -47,7 +103,6 @@ public class KunaiFireController : MonoBehaviour
         Vector2 firePointPosition = new Vector2(firePoint.position.x,firePoint.position.y);
         Transform kunai = Instantiate(KunaiPrefab, firePointPosition, firePoint.rotation);
         kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
-        Debug.Log(firePoint.rotation.z);
     }
     
     

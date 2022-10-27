@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,7 +29,7 @@ public class GameMasterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ObtainKunai();
     }
     [SerializeField]
     public GameObject MainCharacter;
@@ -45,4 +45,18 @@ public class GameMasterController : MonoBehaviour
         Destroy(player);
         gm.StartCoroutine(gm.RespawnCharacter());
     }
+
+    public GameObject UI;
+    bool isObtainKunai = false;
+    public void ObtainKunai()
+    {
+        if(GameObject.Find("Dragon") == null&&isObtainKunai == false)
+        {
+            OptionsMenu om = UI.GetComponent<OptionsMenu>();
+            om.ShowNotification("Bạn Nhận Được Kunai");
+            om.EnableKunaiButton();
+            isObtainKunai=true;
+        }
+    }
+    
 }

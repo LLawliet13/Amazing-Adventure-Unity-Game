@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,18 +16,31 @@ public class Bandit_Warrior : MonoBehaviour
     {
         isRight = true;
         rb = GetComponent<Rigidbody2D>();
+        A = GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>();
         Physics2D.IgnoreCollision(A, GetComponent<BoxCollider2D>(), true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (rb.velocity.x < 0 && isRight) { 
-            transform.localScale = new Vector2(transform.localScale.x*-1,transform.localScale.y);
+        try
+        {
+            A = GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>();
+        }
+        catch (Exception ex)
+        {
+            A = null;
+        }
+        if (A != null) 
+        Physics2D.IgnoreCollision(A, GetComponent<BoxCollider2D>(), true);
+        if (rb.velocity.x < 0 && isRight)
+        {
+            transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
             isRight = false;
             StatusSpace.transform.localScale = new Vector2(StatusSpace.transform.localScale.x * -1, StatusSpace.transform.localScale.y);
         }
-        if (rb.velocity.x > 0 && !isRight) {
+        if (rb.velocity.x > 0 && !isRight)
+        {
             transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
             isRight = true;
             StatusSpace.transform.localScale = new Vector2(StatusSpace.transform.localScale.x * -1, StatusSpace.transform.localScale.y);

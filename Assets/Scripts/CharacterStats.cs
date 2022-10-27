@@ -81,7 +81,7 @@ public class CharacterStats : MonoBehaviour
         {
             this.currentHP -= (int)WeaponStats.fireball / DEF;
             setHp(currentHP, HP);
-            Debug.Log(this.currentHP);
+            //Debug.Log(this.currentHP);
         }
     }
 

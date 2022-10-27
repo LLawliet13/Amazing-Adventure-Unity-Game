@@ -21,7 +21,12 @@ public class DragonWarriorControl : MonoBehaviour
         isRight = true;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        Physics2D.IgnoreCollision(a, GetComponent<CircleCollider2D>(), true);
+        
+            try {
+            a = GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>();
+                Physics2D.IgnoreCollision(a, GetComponent<CircleCollider2D>(), true);
+            }
+            catch { }
         fightLeftBoundRange = transform.position.x - 50;
         fightRightBoundRange = transform.position.x + 50;
         fightDownBoundRange = transform.position.y - 50;
@@ -31,6 +36,12 @@ public class DragonWarriorControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        try
+        {
+            a = GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>();
+            Physics2D.IgnoreCollision(a, GetComponent<CircleCollider2D>(), true);
+        }
+        catch { }
         if (rb.velocity.x < 0 && isRight)
         {
             transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
@@ -44,7 +55,7 @@ public class DragonWarriorControl : MonoBehaviour
             isRight = true;
         }
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        
+
         if (player != null)
         {
             if (player.transform.position.x >= fightLeftBoundRange && player.transform.position.x <= fightRightBoundRange
