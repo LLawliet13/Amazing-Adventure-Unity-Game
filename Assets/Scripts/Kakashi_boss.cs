@@ -174,7 +174,7 @@ public class Kakashi_boss : MonoBehaviour
                         ChangeAnimation("throw");
                     else ChangeAnimation("jump_throw");
                     Transform kunai = getChildByName("Kunai", fightPoint);
-                    kunai.GetComponent<KunaiFireController>().shoot();
+                    kunai.GetComponent<KunaiFireController>().shoot("kunai");
                     timeToNextUseKunai = Time.time + timeDelayKunai;
                     timeToNextAction = timeToNextUseKunai;
                     Action("rotate", (currentCharLocaleScaleX < currentBossLocation.x ? "left" : "right"));

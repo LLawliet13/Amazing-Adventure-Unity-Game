@@ -1,0 +1,2347 @@
+fileFormatVersion: 2
+guid: 68cf89679f590b74caafbc5764b9884a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 288
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3417519513921624883c71cd1bc31381
+      internalID: -1403392785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 288
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9243c4419087f46adf0179be641510
+      internalID: -118631559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 288
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d4c0f491fa90d41ad071dd860b4c2b
+      internalID: 1137604736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 288
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48daca8c2a726f942bb0cd210a9ad228
+      internalID: -1508004836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 288
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7672bce03e308a4dad96ee200b72a4f
+      internalID: 101224258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 288
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f89343a5fb0ed148afa05534cb6fadf
+      internalID: -451578007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 288
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9d07c16cce7074d9e834f3c4e39dc9
+      internalID: -622104436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 288
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ed3b0f0bb44064985b0dde1c69a401
+      internalID: 1980164194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 288
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7898ebf24a850842a8c398e1787d2ab
+      internalID: -2034497202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 288
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0f58e205c22454c9c5c684759fe337
+      internalID: -1715240974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 256
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f79fcad263fa4b83b80b924639741
+      internalID: 1570150075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 256
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128f5e6dff964894ca66cde95db7ee71
+      internalID: 618509723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 256
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451e44dfa0ba95b4abe7ccab5263f94e
+      internalID: 1920952825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 256
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1671f57d5c5322c4da186f3451972771
+      internalID: -1937213580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 256
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a6045be97955d48a986186195bd23e
+      internalID: 64334774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 256
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433f7f25a8b2b1348880abc58282f8dc
+      internalID: 286257006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 256
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b57a7b2e2fd6734e8f6ff2ec67587bb
+      internalID: 174386908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 256
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcfdae0331cecc4f8ec9335a84d7c12
+      internalID: -1680161018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_18
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 256
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e7ec83c7b78c940b4cccfe27cc572f
+      internalID: 1209450745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_19
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 256
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2048487ad30da9945a4c2853580c92cb
+      internalID: 244232131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 224
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40be40c04d2274d45a8fcf96626f86e0
+      internalID: -38657625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 224
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ce6302a7a496e4cab0c2c155f98d83
+      internalID: -897946504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 224
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39955a72ae54ae244bdaf75d41fcf650
+      internalID: -619536259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 224
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f972e8d80086654c915828297e0d2db
+      internalID: -2107946320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 224
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19be341d2c699b4181742176648af3c
+      internalID: -1900937369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 224
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8962e38d80c7646a340dde1fc65ab4
+      internalID: -1720866516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_26
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 224
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87dadac52f30034bb7c2f531cce0f4e
+      internalID: -389405183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_27
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 224
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f711f00a54fb4054d822d2c880ce1338
+      internalID: -1831550049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_28
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 224
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40742e2e228961646be589644ca76d6a
+      internalID: -103648436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_29
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 224
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451a602ed19798b498bee62f68965efe
+      internalID: -1602950758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df26f598df755e8408cd823d5f0a40d3
+      internalID: -1289117903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 192
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215440797217f46468b729cc39047c0e
+      internalID: -31455824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_32
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 192
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89865772fcf47494eb9e9eea10cc9bbf
+      internalID: 1540495152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_33
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 192
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b42dd1daf1b3e54ba9044f63487eae0
+      internalID: -572269797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_34
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 192
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280e5f361d1920d4c8f29ef70640c4c4
+      internalID: 970600711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_35
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 192
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe592c5dd3097a64bad5e546a8e98283
+      internalID: 353540035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 193
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e02006ec001ee14baad8d6a4195bbbb
+      internalID: 45215871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_37
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 192
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86166cbc7e47aa444b723244cc8ee5e2
+      internalID: -2130209881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 192
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196afb4bcaa727d4b991320ba3bf420d
+      internalID: 282212436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 192
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1c0ce499641e94f869a9bce3e53f5d
+      internalID: -78584932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 160
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f1928ec3a507c4c945cf45459d9a92
+      internalID: -1869285979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_41
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 160
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4133b9b910ed64646b71a98a4d1652f3
+      internalID: -1490693793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_42
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 160
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4407925227a644db872a43d7db1aab
+      internalID: -67999753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_43
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 160
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21754a573c2bd374fbe18dc7742ebc81
+      internalID: -1838090139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_44
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 160
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101f13b46c75cd1478b4bb9f6bfc7664
+      internalID: -1944510562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_45
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 160
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7615f83cf0d1874a96c7ffccd307fe7
+      internalID: 143939104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_46
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 160
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec824a753d7f5040ad5d64530e12faa
+      internalID: -1947352027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_47
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 160
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b0b9ac03884e74884117be90738d4e
+      internalID: -580067541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_48
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 160
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19a5009343fa3c439c7c63198b96e6f
+      internalID: -410136733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_49
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 160
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a788158c57adedc4d8de81e3ee28f4dc
+      internalID: -1890679184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_50
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 139
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b36dab164c22324f8dfe694f0262cf4
+      internalID: 1279089083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_51
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 138
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359bc3aaa91b2454f97b8b04f473e116
+      internalID: 1116412945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_52
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 137
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666334af94eab8545a99e7ba728ff00d
+      internalID: 1300047521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_53
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 136
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb25a47f14d7b94b98aef822be86953
+      internalID: 405093851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_54
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 136
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd10edcf0e4dfec46b7b9030fd09f188
+      internalID: -1165910200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_55
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 137
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8fe0b76852b2f41bdefa5a342b9314
+      internalID: -1601780058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_56
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 138
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb56ba4647f339489a9146e217ca9a9
+      internalID: -2096350488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_57
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 139
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271a97f9095eb5d43b1a59f8f286727f
+      internalID: 910025986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 140
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae536ae5cb9f984e890b9e3cad10641
+      internalID: -418450882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_59
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 139
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccefcaff3a5f4f04daceb99dbe3d2499
+      internalID: 181238189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 107
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f009a4907308c4da517c4cbd44b861
+      internalID: -1586529004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 106
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f3100d843b3b940b1e30354830352f
+      internalID: -841513192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_62
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 106
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f32b592ea67ba4680a9f6c10409dda
+      internalID: -580046171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_63
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 104
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf9980664140744fb9c99df4b7cd840
+      internalID: -1470866551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_64
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 103
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a66e0fb80b923d4dacc43277c500e69
+      internalID: 1657773756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_65
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 104
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb17a47d43501749b2fabfbc60dfbd2
+      internalID: 181835359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_66
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 104
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12887f4b4f2c88d4883dc6abee4cbb56
+      internalID: 2043389639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_67
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 105
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d96bb3f3ee3480429381d1bfb9a9bdc
+      internalID: -651531257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_68
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 105
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699ab9802e35a824fa737d053f412bd3
+      internalID: -2070210060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_69
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 107
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8ffbb37faf4be448846dd46ed5cbfe
+      internalID: 163462040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 76
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba719ba894a79e04c809ba292a84088e
+      internalID: -665000040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_71
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 75
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ed8ef79fc95c84bbfda62fa187a059
+      internalID: -1592894126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_72
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 74
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6792257dfc2f240aef94a58c2a915e
+      internalID: -2037299687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_73
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 73
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2db6249d211a449541a6cd18fecba
+      internalID: -924499106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_74
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 73
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeeaaf8cdf5fe0543bd81d885fd437b1
+      internalID: 1464392153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_75
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 74
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3750a9e23e0c9e248aae60d7ae3760f3
+      internalID: 1964982006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_76
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 75
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69503d0cbfb8f174d9f31a67c112f26a
+      internalID: 698880784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_77
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 76
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bb7e9fc25fa894facd0a549536d8c9
+      internalID: 1348089525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 77
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bdd29c96510f243a0463ca2553387d
+      internalID: -531743554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_79
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 76
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda145a3cd2fa3f41ad6ba895fb868cb
+      internalID: -362703749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_80
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 43
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa342fc2fca98e4e86fbc7171fd613d
+      internalID: 2017918735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_81
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 43
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d424285b9aacbd843b9ac0c21c2b7959
+      internalID: 1470098838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 41
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a97d34389ccc4abf809b278ee6a32
+      internalID: 1674682921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_83
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 39
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1012183660a71a2429614f103d5ae8dd
+      internalID: -96014294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_84
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 37
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0026c4fe3eb34f4c9fcc3541651a061
+      internalID: -258765135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_85
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 36
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184a8b0781de8904197bd1c6ef27bd2b
+      internalID: 329126142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_86
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 36
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93078aac7ccb0d04f8a1d862586137d4
+      internalID: -282800332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_87
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 38
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04b0074a8867494fae922edc57c9a15
+      internalID: 1910842055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_88
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 40
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df9e523f5bc28040837e25af06d7285
+      internalID: 1276930610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_89
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 42
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b006e27b7c8844c984f287d2f3231b
+      internalID: 1983697995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_90
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 11
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cc3a80473fed14685400beb38756e5
+      internalID: -394895993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_91
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 10
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd48dfdf59c82f4f9b0b5cfd4d53844
+      internalID: 916057605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_92
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 9
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c937bc23e15e63468e181ca998e2ae4
+      internalID: 680152339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_93
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b190e5aa751fe489f9bea27e7cd3e3
+      internalID: 1414964264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_94
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a1c3dc1c213534c8d81037ae97aeea
+      internalID: -396475829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_95
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cfd51c5f3e9664d931f37f5fee5b32
+      internalID: -51568543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_96
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c4bf618a8b8b9498c54bc9f406faf4
+      internalID: 615979953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_97
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b162544eb19e7b9418d01ecfe4659508
+      internalID: 1950202687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_98
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896fb4dd0a0975c46b4a93d7807d0884
+      internalID: -1644550850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rat and bat spritesheet calciumtrice_99
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94463ab244b716d4e8fa854f1d7a7196
+      internalID: 388472902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rat and bat spritesheet calciumtrice_91: 916057605
+      rat and bat spritesheet calciumtrice_58: -418450882
+      rat and bat spritesheet calciumtrice_47: -580067541
+      rat and bat spritesheet calciumtrice_72: -2037299687
+      rat and bat spritesheet calciumtrice_57: 910025986
+      rat and bat spritesheet calciumtrice_90: -394895993
+      rat and bat spritesheet calciumtrice_66: 2043389639
+      rat and bat spritesheet calciumtrice_83: -96014294
+      rat and bat spritesheet calciumtrice_63: -1470866551
+      rat and bat spritesheet calciumtrice_61: -841513192
+      rat and bat spritesheet calciumtrice_16: 174386908
+      rat and bat spritesheet calciumtrice_76: 698880784
+      rat and bat spritesheet calciumtrice_22: -619536259
+      rat and bat spritesheet calciumtrice_97: 1950202687
+      rat and bat spritesheet calciumtrice_81: 1470098838
+      rat and bat spritesheet calciumtrice_54: -1165910200
+      rat and bat spritesheet calciumtrice_85: 329126142
+      rat and bat spritesheet calciumtrice_9: -1715240974
+      rat and bat spritesheet calciumtrice_13: -1937213580
+      rat and bat spritesheet calciumtrice_42: -67999753
+      rat and bat spritesheet calciumtrice_28: -103648436
+      rat and bat spritesheet calciumtrice_80: 2017918735
+      rat and bat spritesheet calciumtrice_60: -1586529004
+      rat and bat spritesheet calciumtrice_1: -118631559
+      rat and bat spritesheet calciumtrice_29: -1602950758
+      rat and bat spritesheet calciumtrice_71: -1592894126
+      rat and bat spritesheet calciumtrice_94: -396475829
+      rat and bat spritesheet calciumtrice_43: -1838090139
+      rat and bat spritesheet calciumtrice_98: -1644550850
+      rat and bat spritesheet calciumtrice_45: 143939104
+      rat and bat spritesheet calciumtrice_67: -651531257
+      rat and bat spritesheet calciumtrice_0: -1403392785
+      rat and bat spritesheet calciumtrice_36: 45215871
+      rat and bat spritesheet calciumtrice_4: 101224258
+      rat and bat spritesheet calciumtrice_69: 163462040
+      rat and bat spritesheet calciumtrice_59: 181238189
+      rat and bat spritesheet calciumtrice_26: -389405183
+      rat and bat spritesheet calciumtrice_21: -897946504
+      rat and bat spritesheet calciumtrice_25: -1720866516
+      rat and bat spritesheet calciumtrice_77: 1348089525
+      rat and bat spritesheet calciumtrice_40: -1869285979
+      rat and bat spritesheet calciumtrice_27: -1831550049
+      rat and bat spritesheet calciumtrice_93: 1414964264
+      rat and bat spritesheet calciumtrice_17: -1680161018
+      rat and bat spritesheet calciumtrice_44: -1944510562
+      rat and bat spritesheet calciumtrice_41: -1490693793
+      rat and bat spritesheet calciumtrice_56: -2096350488
+      rat and bat spritesheet calciumtrice_10: 1570150075
+      rat and bat spritesheet calciumtrice_48: -410136733
+      rat and bat spritesheet calciumtrice_52: 1300047521
+      rat and bat spritesheet calciumtrice_96: 615979953
+      rat and bat spritesheet calciumtrice_64: 1657773756
+      rat and bat spritesheet calciumtrice_82: 1674682921
+      rat and bat spritesheet calciumtrice_34: 970600711
+      rat and bat spritesheet calciumtrice_79: -362703749
+      rat and bat spritesheet calciumtrice_11: 618509723
+      rat and bat spritesheet calciumtrice_65: 181835359
+      rat and bat spritesheet calciumtrice_20: -38657625
+      rat and bat spritesheet calciumtrice_62: -580046171
+      rat and bat spritesheet calciumtrice_68: -2070210060
+      rat and bat spritesheet calciumtrice_88: 1276930610
+      rat and bat spritesheet calciumtrice_46: -1947352027
+      rat and bat spritesheet calciumtrice_51: 1116412945
+      rat and bat spritesheet calciumtrice_24: -1900937369
+      rat and bat spritesheet calciumtrice_75: 1964982006
+      rat and bat spritesheet calciumtrice_53: 405093851
+      rat and bat spritesheet calciumtrice_15: 286257006
+      rat and bat spritesheet calciumtrice_19: 244232131
+      rat and bat spritesheet calciumtrice_18: 1209450745
+      rat and bat spritesheet calciumtrice_12: 1920952825
+      rat and bat spritesheet calciumtrice_50: 1279089083
+      rat and bat spritesheet calciumtrice_2: 1137604736
+      rat and bat spritesheet calciumtrice_38: 282212436
+      rat and bat spritesheet calciumtrice_84: -258765135
+      rat and bat spritesheet calciumtrice_49: -1890679184
+      rat and bat spritesheet calciumtrice_3: -1508004836
+      rat and bat spritesheet calciumtrice_73: -924499106
+      rat and bat spritesheet calciumtrice_7: 1980164194
+      rat and bat spritesheet calciumtrice_70: -665000040
+      rat and bat spritesheet calciumtrice_33: -572269797
+      rat and bat spritesheet calciumtrice_95: -51568543
+      rat and bat spritesheet calciumtrice_87: 1910842055
+      rat and bat spritesheet calciumtrice_8: -2034497202
+      rat and bat spritesheet calciumtrice_74: 1464392153
+      rat and bat spritesheet calciumtrice_23: -2107946320
+      rat and bat spritesheet calciumtrice_14: 64334774
+      rat and bat spritesheet calciumtrice_32: 1540495152
+      rat and bat spritesheet calciumtrice_37: -2130209881
+      rat and bat spritesheet calciumtrice_86: -282800332
+      rat and bat spritesheet calciumtrice_5: -451578007
+      rat and bat spritesheet calciumtrice_78: -531743554
+      rat and bat spritesheet calciumtrice_30: -1289117903
+      rat and bat spritesheet calciumtrice_6: -622104436
+      rat and bat spritesheet calciumtrice_92: 680152339
+      rat and bat spritesheet calciumtrice_99: 388472902
+      rat and bat spritesheet calciumtrice_89: 1983697995
+      rat and bat spritesheet calciumtrice_31: -31455824
+      rat and bat spritesheet calciumtrice_39: -78584932
+      rat and bat spritesheet calciumtrice_35: 353540035
+      rat and bat spritesheet calciumtrice_55: -1601780058
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
