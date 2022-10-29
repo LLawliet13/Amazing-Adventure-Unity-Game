@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,6 +103,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -5532,11 +5544,11 @@ TextureImporter:
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_195: -213647380
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_93: 2136475840
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_181: 53095865
-      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_105: 1433035259
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_275: -2021197153
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_24: 1096847553
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_184: 491335808
+      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_105: 1433035259
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_285: 298078686
-      kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_275: -2021197153
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_156: 852351172
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_170: 1444011794
       kakashi_hatake__4th_gnw__jus_by_prodijiu_dciutlr-removebg-preview_272: -1458478307

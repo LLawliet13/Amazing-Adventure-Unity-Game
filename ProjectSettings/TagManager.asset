@@ -11,6 +11,8 @@ TagManager:
   - HpBar_Character
   - HpText_Character
   - GM
+  - UI
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Ground
   - MenuControl
   - enemy
-  - 
+  - NPC
   - 
   - 
   - 

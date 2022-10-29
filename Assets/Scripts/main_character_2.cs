@@ -14,12 +14,14 @@ public class main_character_2 : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         //start up
+        LoadAnimation();
         setUpPriorityAnimation();
         currentAnimation = "stand";
         ChangeAnimation(currentAnimation);
         rb.freezeRotation = true;
         cam = Camera.main;
         startCameraScale = cam.orthographicSize;
+        normalCharScale = transform.localScale;
 
     }
     Dictionary<String, AnimationCustom> animationPriority = new Dictionary<string, AnimationCustom>();
@@ -37,22 +39,89 @@ public class main_character_2 : MonoBehaviour
     //- dead
     void setUpPriorityAnimation()
     {
-        animationPriority.Add("dead", new AnimationCustom("dead", true, 5, 999999));
+        animationPriority.Clear();
+        animationPriority.Add("dead", new AnimationCustom("dead", true, 5, getTimeOfAAnimation("dead")));
+        animationPriority.Add("transform", new AnimationCustom("transform", true, 5, getTimeOfAAnimation("transform")));
+        animationPriority.Add("being_attacked", new AnimationCustom("being_attacked", false, 5, getTimeOfAAnimation("being_attacked")));
         animationPriority.Add("stand", new AnimationCustom("stand", false, 5, getTimeOfAAnimation("stand")));
         animationPriority.Add("throw", new AnimationCustom("throw", true, 5, getTimeOfAAnimation("throw")));
         animationPriority.Add("jump_throw", new AnimationCustom("jump_throw", true, 5, getTimeOfAAnimation("jump_throw")));
         animationPriority.Add("jump_attack", new AnimationCustom("jump_attack", true, 4, getTimeOfAAnimation("jump_attack")));
         animationPriority.Add("normal_attack", new AnimationCustom("normal_attack", true, 4, getTimeOfAAnimation("normal_attack")));
-        animationPriority.Add("jump", new AnimationCustom("jump", true, 3, getTimeOfAAnimation("jump")));
+        animationPriority.Add("jump", new AnimationCustom("jump", false, 3, getTimeOfAAnimation("jump")));
         animationPriority.Add("slide", new AnimationCustom("slide", true, 2, getTimeOfAAnimation("slide")));
         animationPriority.Add("run", new AnimationCustom("run", true, 1, getTimeOfAAnimation("run")));
+    }
+
+    Dictionary<string, string> animationNaruto = new Dictionary<string, string>();
+    Dictionary<string, string> animationNarutoTransform = new Dictionary<string, string>();
+    Dictionary<string, string> animationNameManager;
+
+    bool isNaruto = true;
+    public bool IsNaruto()
+    {
+        return isNaruto;
+    }
+    public void LoadAnimation()
+    {
+        animationNaruto.Add("dead", "dead");
+        animationNaruto.Add("being_attacked", "being_attacked");
+        animationNaruto.Add("stand", "stand");
+        animationNaruto.Add("throw", "throw");
+        animationNaruto.Add("jump_throw", "jump_throw");
+        animationNaruto.Add("jump_attack", "jump_attack");
+        animationNaruto.Add("normal_attack", "normal_attack");
+        animationNaruto.Add("jump", "jump");
+        animationNaruto.Add("slide", "slide");
+        animationNaruto.Add("run", "run");
+        animationNaruto.Add("transform", "transform");
+
+        animationNarutoTransform.Add("transform", "transform_revert");
+        animationNarutoTransform.Add("dead", "dead_transform");
+        animationNarutoTransform.Add("being_attacked", "being_attacked_transform");
+        animationNarutoTransform.Add("stand", "stand_transform");
+        animationNarutoTransform.Add("throw", "throw_transform");
+        animationNarutoTransform.Add("jump_throw", "jump_throw_transform");
+        animationNarutoTransform.Add("jump_attack", "jump_attack_transform");
+        animationNarutoTransform.Add("normal_attack", "normal_attack_transform");
+        animationNarutoTransform.Add("jump", "jump_transform");
+        animationNarutoTransform.Add("slide", "slide_transform");
+        animationNarutoTransform.Add("run", "run_transform");
+        animationNameManager = animationNaruto;
+    }
+    public void Transform()
+    {
+
+        if (isNaruto)
+        {
+            isNaruto = false;
+            upScale();// tro ve kich thuoc ban dau
+            CopySpell();// xoa cac ban phan than khi bien hinh
+            animationNameManager = animationNarutoTransform;
+            runVelocity = 10f;
+
+        }
+        else
+        {
+            animationNameManager = animationNaruto;
+            isNaruto = true;
+            runVelocity = 8f;
+        }
+
+        if (!directionRight && !isNaruto)
+        {
+            directionRight = true;
+        }
+        Debug.Log("Change Transform");
+        setUpPriorityAnimation();
+        ChangeAnimation("transform");
     }
     // Update is called once per frame
     void Update()
     {
 
         MovingProcess();
-    
+
 
 
 
@@ -69,11 +138,7 @@ public class main_character_2 : MonoBehaviour
     public Transform WallCheckPoint3;
     public Transform WallCheckPoint4;
 
-    private void setFriction(float f)
-    {
-        //rb.sharedMaterial.friction = f;
 
-    }
     private void wallCheck()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(WallCheckPoint1.position, 0.2f, grounds);
@@ -83,7 +148,6 @@ public class main_character_2 : MonoBehaviour
         if (colliders.Length > 0 || colliders2.Length > 0 || colliders3.Length > 0 || colliders4.Length > 0)
         {
 
-            //setFriction(0f);
             isFloating = false;
         }
 
@@ -95,7 +159,6 @@ public class main_character_2 : MonoBehaviour
         if (colliders.Length > 0)
         {
             isFloating = false;
-            //setFriction(1f);
         }
         else
         {
@@ -118,7 +181,7 @@ public class main_character_2 : MonoBehaviour
             LastTimeInteract = Time.time;
         }
 
-        if (Time.time - LastTimeInteract >= 0.5)
+        if (Time.time - LastTimeInteract >= 0.2)
         {
             ChangeAnimation("stand");
         }
@@ -165,25 +228,44 @@ public class main_character_2 : MonoBehaviour
     {
         if (kunaiUseTime <= Time.time)
         {
-           
+
             if (isFloating)
                 ChangeAnimation("jump_throw");
             else ChangeAnimation("throw");
-            getChildByName("Kunai", getChildByName("FirePoint",
-                getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shoot();
-            kunaiUseTime += 1f;
+            if (isNaruto)
+            {
+                getChildByName("Kunai", getChildByName("FirePoint",
+                    getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shoot("kunai");
+                kunaiUseTime += 1f;
+            }
+            else
+            {
+                getChildByName("Kunai", getChildByName("FirePoint",
+                getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shoot("cuuviFire");
+                kunaiUseTime += 1f;
+            }
         }
     }
     public void ThrowKunaiAuto()
     {
         if (kunaiUseTime <= Time.time)
         {
+
             if (isFloating)
                 ChangeAnimation("jump_throw");
             else ChangeAnimation("throw");
-            getChildByName("Kunai", getChildByName("FirePoint",
-                getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shootAuto();
-            kunaiUseTime += 1f;
+            if (isNaruto)
+            {
+                getChildByName("Kunai", getChildByName("FirePoint",
+                    getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shootAuto("kunai");
+                kunaiUseTime += 1f;
+            }
+            else
+            {
+                getChildByName("Kunai", getChildByName("FirePoint",
+                getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shootAuto("cuuviFire");
+                kunaiUseTime += 1f;
+            }
         }
     }
     Transform getChildByName(string name, Transform transform)
@@ -239,12 +321,39 @@ public class main_character_2 : MonoBehaviour
         {
             CopySpell();
         }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+
+            Transform();
+        }
+        MoveProcessForButtonDownPhone();
         lastVelocity = rb.velocity;
 
     }
+    public void MoveProcessForButtonDownPhone()
+    {
+        OptionsMenu om = GameObject.FindGameObjectWithTag("UI").GetComponent<OptionsMenu>();
+        if (om != null)
+        {
+            if (om.moveLeft)
+            {
+                MoveLeft();
+            }
+            if (om.moveRight)
+                MoveRight();
+            if (om.jump)
+                Jump();
+            if (om.meleeAttack)
+                meleeAttack();
+            if (om.dash)
+                Slide();
+            if (om.throwKunai)
+                ThrowKunaiAuto();
+        }
+    }
     float jumpVelocity = 20f;
     float runVelocity = 8f;
-    float slideVelocity = 18f;
+    float slideVelocity = 13f;
     void Action(string actionName, string direction)
     {
         if (actionName == "jump")
@@ -277,15 +386,19 @@ public class main_character_2 : MonoBehaviour
 
     void caculateTimeAnimation(string animationName)
     {
+        //Debug.Log(animationNameManager[animationName] + animationPriority[animationName].animationTime);
+
         endTimeAnimation = Time.time + animationPriority[animationName].animationTime;
+
     }
 
-    void ChangeAnimation(string animationName)
+    public void ChangeAnimation(string animationName)
     {
-        if (animationPriority[currentAnimation].priority < animationPriority[animationName].priority)
+
+        if (animationPriority[currentAnimation].priority <= animationPriority[animationName].priority)
         {
             currentAnimation = animationName;
-            animator.Play(currentAnimation);
+            animator.Play(animationNameManager[currentAnimation]);
             if (animationPriority[currentAnimation].isNeedCheckTimeAnimation)
             {
                 caculateTimeAnimation(currentAnimation);
@@ -296,11 +409,12 @@ public class main_character_2 : MonoBehaviour
             if (Time.time >= endTimeAnimation)
             {
                 currentAnimation = animationName;
-                animator.Play(currentAnimation);
+                animator.Play(animationNameManager[currentAnimation]);
                 if (animationPriority[currentAnimation].isNeedCheckTimeAnimation)
                 {
                     caculateTimeAnimation(currentAnimation);
                 }
+
             }
         }
 
@@ -336,10 +450,12 @@ public class main_character_2 : MonoBehaviour
     float getTimeOfAAnimation(string animationName)
     {
         AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
+        animationName = animationNameManager[animationName];
         foreach (AnimationClip clip in clips)
         {
             if (animationName == clip.name)
             {
+
                 return clip.length;
             }
         }
@@ -350,22 +466,32 @@ public class main_character_2 : MonoBehaviour
 
     //Skills
     public GameObject copyspell_character;
-    int i = 1;
     public int sizeXCopySpell = 5;
     List<GameObject> copy_char = new List<GameObject>();
     public void CopySpell()
     {
-        int count = 0;
-        foreach (var c in copy_char)
+
+        if (transform.tag == "Player")
         {
-            if (c != null)
-                count++;
-        }
-        if (count <= sizeXCopySpell)
-        {
-            copy_char.Add(Instantiate(copyspell_character,
-                new Vector3(transform.position.x - sizeXCopySpell, transform.position.y, 0), Quaternion.identity))
-            ;
+            List<GameObject> copy_charExist = new List<GameObject>();
+            foreach (var c in copy_char)
+            {
+                if (c != null)
+                {
+                    if (!isNaruto) Destroy(c);
+                    else
+                        copy_charExist.Add(c);
+                }
+
+            }
+            if (!isNaruto) return;
+            copy_char = copy_charExist;
+            if (copy_char.Count <= sizeXCopySpell)
+            {
+                copy_char.Add(Instantiate(copyspell_character,
+                    new Vector3(transform.position.x - sizeXCopySpell, transform.position.y, 0), Quaternion.identity))
+                ;
+            }
         }
     }
     public float camEdgePosition(String edge)
@@ -390,25 +516,38 @@ public class main_character_2 : MonoBehaviour
     public float startCameraScale;
     public float speedFollowCam = 10;
     bool scaleUp = false;
+    Vector3 normalCharScale;
     public void upScale()
     {
-        if (scaleUp == false)
+        if (isNaruto)
         {
-            gameObject.transform.localScale = gameObject.transform.localScale * 1.5f;
-            gameObject.transform.Translate(new Vector3(0, 5, 0));
-            jumpVelocity *= 1.5f;
-            speedFollowCam += 5;
-            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, cam.orthographicSize + 4, Time.deltaTime * 10);
-            scaleUp = true;
-        }
+            if (scaleUp == false)
+            {
+                gameObject.transform.localScale = gameObject.transform.localScale * 1.5f;
+                gameObject.transform.Translate(new Vector3(0, 5, 0));
+                jumpVelocity *= 1.5f;
+                speedFollowCam += 5;
+                cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, cam.orthographicSize + 4, Time.deltaTime * 10);
+                scaleUp = true;
+                return;
+            }
 
-        if (scaleUp == true)
+            if (scaleUp == true)
+            {
+                gameObject.transform.localScale = gameObject.transform.localScale / 1.5f;
+                jumpVelocity /= 1.5f;
+                speedFollowCam -= 5;
+                cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, cam.orthographicSize - 4, Time.deltaTime * 10);
+                scaleUp = false;
+            }
+        }
+        else
         {
-            gameObject.transform.localScale = gameObject.transform.localScale / 1.5f;
-            jumpVelocity /= 1.5f;
-            speedFollowCam -= 5;
-            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, cam.orthographicSize - 4, Time.deltaTime * 10);
+            jumpVelocity = 20f;
             scaleUp = false;
+            cam.orthographicSize = startCameraScale;
+            speedFollowCam = 15;
+            transform.localScale = normalCharScale;
         }
     }
     public GameObject AutoDetect()
@@ -422,8 +561,8 @@ public class main_character_2 : MonoBehaviour
         {
             float x = enemy.transform.position.x;
             float y = enemy.transform.position.y;
-            if (x >= left && x<=right&&
-                y>=bottom && y<= top)
+            if (x >= left && x <= right &&
+                y >= bottom && y <= top)
             {
                 return enemy;
             }
@@ -431,6 +570,7 @@ public class main_character_2 : MonoBehaviour
         return null;
     }
 }
+
 public class AnimationCustom
 {
     public String animationName;

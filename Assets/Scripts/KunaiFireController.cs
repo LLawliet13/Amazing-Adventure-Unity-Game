@@ -19,6 +19,7 @@ public class KunaiFireController : MonoBehaviour
     public float delayTime = 0.5f;
     float firedTime = 0;
     public Transform KunaiPrefab;
+    public Transform CuuViFirePrefab;
     // Update is called once per frame
     void Update()
     {
@@ -54,6 +55,12 @@ public class KunaiFireController : MonoBehaviour
             float rotZ = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
             transform.parent.rotation = Quaternion.Euler(0, 0, rotZ + rotationOffset);
             
+            Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
+            Transform kunai = Instantiate(KunaiPrefab, firePointPosition, transform.parent.rotation);
+            kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
+        }
+        else
+        {
             Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
             Transform kunai = Instantiate(KunaiPrefab, firePointPosition, transform.parent.rotation);
             kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
@@ -104,6 +111,55 @@ public class KunaiFireController : MonoBehaviour
         Transform kunai = Instantiate(KunaiPrefab, firePointPosition, firePoint.rotation);
         kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
     }
-    
-    
+    public void shoot(string prefabName)
+    {
+        Transform weapon = null;
+        if(prefabName == "kunai")
+        {
+            weapon = KunaiPrefab;
+        }
+        if(prefabName == "cuuviFire")
+        {
+            weapon = CuuViFirePrefab;
+        }
+        if (weapon == null) return;
+        Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
+            Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+        Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
+        Transform kunai = Instantiate(weapon, firePointPosition, firePoint.rotation);
+        kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
+    }
+    public void shootAuto(string prefabName)
+    {
+        Transform weapon = null;
+        if (prefabName == "kunai")
+        {
+            weapon = KunaiPrefab;
+        }
+        if (prefabName == "cuuviFire")
+        {
+            weapon = CuuViFirePrefab;
+        }
+        if (weapon == null) return;
+        GameObject target = AutoDetect();
+        if (target != null)
+        {
+            Debug.Log(target.name);
+            Vector3 diff = target.transform.position - transform.position;
+            diff = diff.normalized;
+            float rotZ = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            transform.parent.rotation = Quaternion.Euler(0, 0, rotZ + rotationOffset);
+
+            Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
+            Transform kunai = Instantiate(weapon, firePointPosition, transform.parent.rotation);
+            kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
+        }
+        else
+        {
+            Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
+            Transform kunai = Instantiate(weapon, firePointPosition, transform.parent.rotation);
+            kunai.transform.localScale *= Mathf.Abs(mc.transform.localScale.x) / scale;
+        }
+    }
+
 }

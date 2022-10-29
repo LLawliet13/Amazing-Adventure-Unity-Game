@@ -17,7 +17,6 @@ public class GameMasterController : MonoBehaviour
         }
     }
     
-    List<Transform> enemyList;
     public static void Respawn(Transform character,Vector3 location,Quaternion quaternion)
     {
         Instantiate(character, location,quaternion);
@@ -58,5 +57,10 @@ public class GameMasterController : MonoBehaviour
             isObtainKunai=true;
         }
     }
-    
+    public void ChangeSavePoint(Transform t)
+    {
+        RespawnPoint = t;
+    }
+
+
 }

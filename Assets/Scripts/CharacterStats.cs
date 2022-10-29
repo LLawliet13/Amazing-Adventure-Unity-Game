@@ -18,16 +18,19 @@ public class CharacterStats : MonoBehaviour
     private int currentHP;
     void Start()
     {
-        
-        if (HpBarRect == null)
+        if (transform.tag == "Player")
         {
-            HpBarRect = GameObject.FindGameObjectWithTag("HpBar_Character").GetComponent<RectTransform>();
-            Debug.Log(HpBarRect);
-        }
-        if (HpText == null)
-        {
-            HpText = GameObject.FindGameObjectWithTag("HpText_Character").GetComponent<TextMeshProUGUI>();
-            Debug.Log(HpText);
+
+            if (HpBarRect == null)
+            {
+                HpBarRect = GameObject.FindGameObjectWithTag("HpBar_Character").GetComponent<RectTransform>();
+                Debug.Log(HpBarRect);
+            }
+            if (HpText == null)
+            {
+                HpText = GameObject.FindGameObjectWithTag("HpText_Character").GetComponent<TextMeshProUGUI>();
+                Debug.Log(HpText);
+            }
         }
         currentHP = HP;
         setHp(HP, HP);
@@ -35,39 +38,36 @@ public class CharacterStats : MonoBehaviour
     }
 
     // Update is called once per frame
-   
+
     void Update()
     {
-        if (HpBarRect == null)
-        {
-            Debug.LogError("no barHp reference");
+        //if (HpBarRect == null)
+        //{
+        //    Debug.LogError("no barHp reference");
 
-        }
-        if (HpText == null)
-        {
-            Debug.LogError("no HpText reference");
+        //}
+        //if (HpText == null)
+        //{
+        //    Debug.LogError("no HpText reference");
 
-        }
-
-        if (currentHP <= 0||transform.position.y<=-100)
+        //}
+        isCuuViTime();
+        if (currentHP <= 0 || transform.position.y <= -100)
         {
             setHp(0, HP);
             GameMasterController.KillAndRespawnCharacter(gameObject);
 
         }
     }
-    public IEnumerator RespawnCharacter(GameObject gameObject, Vector3 RespawnPoint)
-    {
-        Debug.Log("Respawnding");
-        yield return new WaitForSeconds(3);
-        gameObject.SetActive(true);
-        gameObject.transform.position = RespawnPoint;
-    }
+
     public void setHp(int current, int max)
     {
         float value = (float)current / max;
-        HpBarRect.localScale = new Vector3(value, HpBarRect.localScale.y, HpBarRect.localScale.z);
-        HpText.text = current + "/" + max + " HP";
+        if (transform.tag == "Player")
+        {
+            HpBarRect.localScale = new Vector3(value, HpBarRect.localScale.y, HpBarRect.localScale.z);
+            HpText.text = current + "/" + max + " HP";
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -77,11 +77,25 @@ public class CharacterStats : MonoBehaviour
         //    this.HP -= (int)WeaponStats.kunai / DEF;
         //    Debug.Log("Damaged");
         //}
-        if (collision.gameObject.tag != "Ground" && collision.gameObject.tag != "Kunai")
+        if (collision.gameObject.tag != "Ground" && collision.gameObject.tag != "Kunai"
+            && collision.gameObject.tag != "NPC")
         {
             this.currentHP -= (int)WeaponStats.fireball / DEF;
             setHp(currentHP, HP);
+            isHpDecrease();
             //Debug.Log(this.currentHP);
+        }
+    }
+    float timeTobeDecreaseHP = 0;
+    public void isCuuViTime()
+    {
+        // tru hp khi trong trang thai cuu vi
+        if (!GameObject.FindGameObjectWithTag("Player").GetComponent<main_character_2>().IsNaruto()
+            &&Time.time>=timeTobeDecreaseHP)
+        {
+            currentHP = currentHP - 10;
+            setHp(currentHP, HP);
+            timeTobeDecreaseHP = Time.time + 1;
         }
     }
 
@@ -89,5 +103,26 @@ public class CharacterStats : MonoBehaviour
     {
         this.currentHP -= (int)(v / DEF);
         setHp(currentHP, HP);
+        isHpDecrease();
+    }
+    public void isHpDecrease()
+    {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<main_character_2>().ChangeAnimation("being_attacked");
+
+    }
+    public void heal(bool healFull, int x)
+    {
+        if (healFull == false)
+        {
+
+            this.currentHP += x;
+            if (currentHP > HP) currentHP = HP;
+        }
+        else
+        {
+            this.currentHP = HP;
+        }
+        setHp(currentHP, HP);
+
     }
 }

@@ -1,0 +1,1115 @@
+fileFormatVersion: 2
+guid: 7caea43e1d0335d4cb49b5d4d38bd899
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 463
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d9d24f5ff56ae4b97bc184cd7c3a92
+      internalID: 581443628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 497
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf1822c5da176b41a224e034eed0501
+      internalID: 1472950439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 495
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170ec239b358bd0438c86492e1c1b449
+      internalID: 1801094391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 413
+        width: 49
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7459241b463bb24aac3ebfb069bd402
+      internalID: 1199390742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 390
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6194631b9cdfc24ca7516ecee781c59
+      internalID: -318056310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 364
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d1035d2aec475418de8182812cbb6a
+      internalID: -1878823707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 347
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b5253f48ccb1746927ab4c0b52598f
+      internalID: -1764140843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 344
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4b263a1983d949ba1d889c7e06f08
+      internalID: 1060676398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 334
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0831b6a011397974e8961a5023cc6906
+      internalID: 1907466117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 328
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8e79f1190f8694d8ff876525c6a114
+      internalID: 981728592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 316
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ef3d7b952c71f41bff039a690f9371
+      internalID: 1598384284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 307
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35613036c018b5c4c9a797265cc16b76
+      internalID: 373658434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 314
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d5846b3cb237c4baf9d2fcbfc8ecc5
+      internalID: 1610172268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 308
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d3d81d29f99b347899fc5445396f92
+      internalID: -101243690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 308
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebe2afc20689bd4ea51aab77de898a8
+      internalID: -319094248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 312
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd79f08613babd45aa3e41b610ff192
+      internalID: -1237480838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 305
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea19fd064938cfc4593d4cd1ccf9317b
+      internalID: -2126539057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 308
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d866d39c8c83446943ca06b4416a06
+      internalID: 1607303286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 307
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bde2c1f5925a99459e8c714cb1d7d65
+      internalID: 1339442674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 299
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7c019f435b46748a7c4a47b5fef1a0
+      internalID: 1089767033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 298
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f804d17b839377545849b25edde17825
+      internalID: -1285023825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 300
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87139eb975581b449c71034b3eef115
+      internalID: -1990917927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 300
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8f1bbaf1620ce419853e61b33a0588
+      internalID: 1212669360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 292
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf40955c58312348b1cce3b54e6b39e
+      internalID: 776045898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 296
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351f179a086f73643b1b344a4cb426dd
+      internalID: -960046500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 292
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6715e5cefd3ea3f4ab6ee73ae61060ff
+      internalID: -434017723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 290
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aef5d00864301146a689b84703935a8
+      internalID: 185525492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 290
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b706c811a425cf144b924eea30d81e90
+      internalID: -1190798334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 275
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3332286300216654fbc2ce9cf0ac8bb6
+      internalID: 428577803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 275
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bad6e7429c00714393d80b289d2fe7a
+      internalID: -1990405882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 267
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f7e63130bb7ef42a8b4112f0269e10
+      internalID: -338409279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 267
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5029129791910db4998b54222bf2d0ee
+      internalID: 381338591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 259
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1869c81542002d045ae1064d79090b8b
+      internalID: -1271451161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 260
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6105a33fa173f8e478cae70696040d6d
+      internalID: 1870218494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 251
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054cd6f15135e5744b9eb3d11b9602d3
+      internalID: 728095168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 135
+        width: 49
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142ef53340dbca44883353c79dc7baee
+      internalID: 1357019968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 236
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7695318b3424944e99048d28d5cff6f
+      internalID: 1169325859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 135
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42873f900c5d39342b2b8657c8b379eb
+      internalID: 1407072946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 103
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e617c25badf2645b50aea9d44b1619
+      internalID: 175020068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 103
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fa53b70e4c3f94ca2920fbe24ca566
+      internalID: 1672930083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 47
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273d6fcf5d5256747ab0c91234d0e2d4
+      internalID: -1506694809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 17
+        width: 71
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8e1b32ac3af9c4090f7a137e024cec
+      internalID: -964396138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 32
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e8cc1449a35734e9e180a742fc012a
+      internalID: -2144165673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 30
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59571ed5e624fcb4695c6efcd4326927
+      internalID: -1095175956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_5: -1878823707
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_24: -960046500
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_18: 1339442674
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_27: -1190798334
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_28: 428577803
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_39: 1672930083
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_7: 1060676398
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_36: 1169325859
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_43: -1095175956
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_3: 1199390742
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_6: -1764140843
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_29: -1990405882
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_16: -2126539057
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_33: 1870218494
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_26: 185525492
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_10: 1598384284
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_15: -1237480838
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_32: -1271451161
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_0: 581443628
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_1: 1472950439
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_11: 373658434
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_20: -1285023825
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_42: -2144165673
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_17: 1607303286
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_9: 981728592
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_22: 1212669360
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_30: -338409279
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_40: -1506694809
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_41: -964396138
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_8: 1907466117
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_12: 1610172268
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_31: 381338591
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_21: -1990917927
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_34: 728095168
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_4: -318056310
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_25: -434017723
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_37: 1407072946
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_13: -101243690
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_14: -319094248
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_35: 1357019968
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_2: 1801094391
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_19: 1089767033
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_23: 776045898
+      DS_DSi_-_Castlevania_Order_of_Ecclesia_-_Save_Point-removebg-preview_38: 175020068
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
