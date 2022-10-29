@@ -12,27 +12,11 @@ public class LightingBallController : MonoBehaviour
         scale = Mathf.Abs(mc.transform.localScale.x);
 
     }
-    public float delayTime = 0.5f;
-    float firedTime = 0;
     public Transform LightingBall;
     // Update is called once per frame
     void Update()
     {
-        //if (delayTime == 0)
-        //{
-        //    if (Input.GetMouseButton(0))
-        //    {
-        //        shoot();
-        //    }
-        //}
-        //else
-        //{
-        //    if (Input.GetMouseButton(0) && Time.time > firedTime)
-        //    {
-        //        shoot();
-        //        firedTime = Time.time + delayTime;
-        //    }
-        //}
+       
     }
     Transform mc;
     float scale;

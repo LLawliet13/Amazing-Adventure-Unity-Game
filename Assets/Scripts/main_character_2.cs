@@ -89,32 +89,35 @@ public class main_character_2 : MonoBehaviour
         animationNarutoTransform.Add("run", "run_transform");
         animationNameManager = animationNaruto;
     }
+    public bool canTransform = false;
     public void Transform()
     {
-
-        if (isNaruto)
+        if (canTransform)
         {
-            isNaruto = false;
-            upScale();// tro ve kich thuoc ban dau
-            CopySpell();// xoa cac ban phan than khi bien hinh
-            animationNameManager = animationNarutoTransform;
-            runVelocity = 10f;
+            if (isNaruto)
+            {
+                isNaruto = false;
+                upScale();// tro ve kich thuoc ban dau
+                CopySpell();// xoa cac ban phan than khi bien hinh
+                animationNameManager = animationNarutoTransform;
+                runVelocity = 10f;
 
-        }
-        else
-        {
-            animationNameManager = animationNaruto;
-            isNaruto = true;
-            runVelocity = 8f;
-        }
+            }
+            else
+            {
+                animationNameManager = animationNaruto;
+                isNaruto = true;
+                runVelocity = 8f;
+            }
 
-        if (!directionRight && !isNaruto)
-        {
-            directionRight = true;
+            if (!directionRight && !isNaruto)
+            {
+                directionRight = true;
+            }
+            Debug.Log("Change Transform");
+            setUpPriorityAnimation();
+            ChangeAnimation("transform");
         }
-        Debug.Log("Change Transform");
-        setUpPriorityAnimation();
-        ChangeAnimation("transform");
     }
     // Update is called once per frame
     void Update()
@@ -236,13 +239,13 @@ public class main_character_2 : MonoBehaviour
             {
                 getChildByName("Kunai", getChildByName("FirePoint",
                     getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shoot("kunai");
-                kunaiUseTime += 1f;
+                kunaiUseTime = Time.time + 1f;
             }
             else
             {
                 getChildByName("Kunai", getChildByName("FirePoint",
                 getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shoot("cuuviFire");
-                kunaiUseTime += 1f;
+                kunaiUseTime = Time.time + 1f;
             }
         }
     }
@@ -258,13 +261,13 @@ public class main_character_2 : MonoBehaviour
             {
                 getChildByName("Kunai", getChildByName("FirePoint",
                     getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shootAuto("kunai");
-                kunaiUseTime += 1f;
+                kunaiUseTime = Time.time + 1f;
             }
             else
             {
                 getChildByName("Kunai", getChildByName("FirePoint",
                 getChildByName("Hand", transform))).GetComponent<KunaiFireController>().shootAuto("cuuviFire");
-                kunaiUseTime += 1f;
+                kunaiUseTime = Time.time + 1f;
             }
         }
     }
@@ -299,7 +302,7 @@ public class main_character_2 : MonoBehaviour
 
         }
 
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1) || Input.GetKey(KeyCode.K))
         {
             meleeAttack();
 
@@ -311,7 +314,7 @@ public class main_character_2 : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetMouseButton(0))
         {
             ThrowKunai();
         }
@@ -438,12 +441,20 @@ public class main_character_2 : MonoBehaviour
             }
 
             Collider2D[] collisions = Physics2D.OverlapCircleAll(attack_point.position, radius, enemies);
-            foreach (Collider2D e in collisions)
+            CharacterStats cs = transform.GetComponent<CharacterStats>();
+            if (cs != null)
             {
-                e.GetComponent<EnemyStats>().getDamage(10);
-                Debug.LogError("attacked");
+                foreach (Collider2D e in collisions)
+                {
+                    cs.GiveDamage(e);
 
+                }
             }
+            else
+            {
+                Debug.LogError("Missing ChracterStatsSCript");
+            }
+
             attackTime = Time.time + delayAttackTime;
         }
     }

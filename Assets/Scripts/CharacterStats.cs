@@ -24,12 +24,10 @@ public class CharacterStats : MonoBehaviour
             if (HpBarRect == null)
             {
                 HpBarRect = GameObject.FindGameObjectWithTag("HpBar_Character").GetComponent<RectTransform>();
-                Debug.Log(HpBarRect);
             }
             if (HpText == null)
             {
                 HpText = GameObject.FindGameObjectWithTag("HpText_Character").GetComponent<TextMeshProUGUI>();
-                Debug.Log(HpText);
             }
         }
         currentHP = HP;
@@ -77,16 +75,26 @@ public class CharacterStats : MonoBehaviour
         //    this.HP -= (int)WeaponStats.kunai / DEF;
         //    Debug.Log("Damaged");
         //}
-        if (collision.gameObject.tag != "Ground" && collision.gameObject.tag != "Kunai"
-            && collision.gameObject.tag != "NPC")
-        {
-            this.currentHP -= (int)WeaponStats.fireball / DEF;
-            setHp(currentHP, HP);
-            isHpDecrease();
-            //Debug.Log(this.currentHP);
-        }
+        //if (collision.gameObject.tag != "Ground" && collision.gameObject.tag != "Kunai"
+        //    && collision.gameObject.tag != "NPC")
+        //{
+        //    this.currentHP -= (int)WeaponStats.fireball / DEF;
+        //    setHp(currentHP, HP);
+        //    isHpDecrease();
+        //    //Debug.Log(this.currentHP);
+        //}
+    }
+    public int ATK = 10;
+    private float meleeATK { get => ATK * 0.8f; }
+
+    public void GiveDamage(Collider2D collision)
+    {
+        collision.GetComponent<EnemyStats>().getDamage(meleeATK);
+
     }
     float timeTobeDecreaseHP = 0;
+
+
     public void isCuuViTime()
     {
         // tru hp khi trong trang thai cuu vi

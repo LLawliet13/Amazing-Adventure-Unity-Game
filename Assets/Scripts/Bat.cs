@@ -34,7 +34,7 @@ public class Bat : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, target, attackSpeed * Time.deltaTime);
             if (beforeAttack != target)
             {
-                
+
 
                 if ((target.x > transform.position.x && !isRight) ||
                 (target.x < transform.position.x && isRight))
@@ -85,6 +85,14 @@ public class Bat : MonoBehaviour
         if (collision.tag == "Player")
         {
             target = beforeAttack;
+            EnemyStats es = transform.GetComponent<EnemyStats>();
+            if (es == null)
+            {
+                Debug.LogError("Missing EnemyStats");
+                return;
+            }
+            if (target != Vector3.zero)
+                es.GiveDamage(collision);
         }
     }
 }

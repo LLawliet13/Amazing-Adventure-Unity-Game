@@ -15,10 +15,17 @@ public class OptionsMenu : MonoBehaviour
     public GameObject NPCDialogPanel;
     public GameObject controlPanel;
     main_character_2 char_script;
+    public bool iscontrolPanelActive = true;
     // Start is called before the first frame update
     void Start()
     {
         loadDialog();
+        if (SystemInfo.deviceType.ToString() == "Desktop")
+        {
+            controlPanel.SetActive(false);
+            iscontrolPanelActive = false;
+        }
+
     }
 
     // Update is called once per frame
@@ -129,7 +136,14 @@ public class OptionsMenu : MonoBehaviour
         }
         catch { }
     }
-
+    public void Transform()
+    {
+        try
+        {
+            char_script.Transform();
+        }
+        catch { }
+    }
     public void UpScale()
     {
         try
@@ -160,7 +174,16 @@ public class OptionsMenu : MonoBehaviour
     public void EnableKunaiButton()
     {
         kunaiButton.SetActive(true);
+      
     }
+    [SerializeField]
+    private GameObject transformButton;
+    internal void EnableTransformButton()
+    {
+        transformButton.SetActive(true);
+        
+    }
+   
     Dictionary<string, NPCDialog> NPCDialogList = new Dictionary<string, NPCDialog>();
 
 
@@ -185,7 +208,8 @@ public class OptionsMenu : MonoBehaviour
     }
     public void EndDialog()
     {
-        controlPanel.SetActive(true);
+        if (iscontrolPanelActive)
+            controlPanel.SetActive(true);
         NPCDialogPanel.SetActive(false);
 
     }
@@ -222,6 +246,8 @@ public class OptionsMenu : MonoBehaviour
         DialogType(dialog);
 
     }
+
+
     private class NPCDialog
     {
 

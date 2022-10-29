@@ -29,6 +29,7 @@ public class GameMasterController : MonoBehaviour
     void Update()
     {
         ObtainKunai();
+        ObtainTransformSkill();
     }
     [SerializeField]
     public GameObject MainCharacter;
@@ -38,6 +39,8 @@ public class GameMasterController : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         Instantiate(MainCharacter, RespawnPoint.position, Quaternion.identity);
+        pendingAction();// khoi phuc cac skill cho player
+
     }
     public static void KillAndRespawnCharacter(GameObject player)
     {
@@ -46,15 +49,58 @@ public class GameMasterController : MonoBehaviour
     }
 
     public GameObject UI;
+    bool isObtainTransform = false;
     bool isObtainKunai = false;
     public void ObtainKunai()
     {
-        if(GameObject.Find("Dragon") == null&&isObtainKunai == false)
+        //if(GameObject.Find("SomeBoss") == null&& isObtainKunai == false)
+        //{
+        //    OptionsMenu om = UI.GetComponent<OptionsMenu>();
+        //    om.ShowNotification("Bạn Nhận Được Kunai");
+        //    om.EnableKunaiButton();
+        //    isObtainKunai = true;
+        //try
+        //{
+        //    //GameObject.FindGameObjectWithTag("Player").GetComponent<main_character_2>().canTransform = true;
+        //}
+        //catch
+        //{
+        //    Debug.LogError("No Character Found");
+        //    isEnableKunaiSkill = true;
+        //}
+        //}
+    }
+    public void ObtainTransformSkill()
+    {
+        if (GameObject.Find("Dragon") == null && isObtainTransform == false)
         {
             OptionsMenu om = UI.GetComponent<OptionsMenu>();
-            om.ShowNotification("Bạn Nhận Được Kunai");
-            om.EnableKunaiButton();
-            isObtainKunai=true;
+            om.ShowNotification("Bạn Nhận Được Kĩ Năng Biến Hình");
+            om.EnableTransformButton();
+            isObtainTransform = true;
+            try
+            {
+                GameObject.FindGameObjectWithTag("Player").GetComponent<main_character_2>().canTransform = true;
+            }
+            catch
+            {
+                Debug.LogError("No Character Found");
+                isEnableTransformSkill = true;
+            }
+        }
+    }
+    bool isEnableTransformSkill = false;
+    bool isEnableKunaiSkill = false;
+    public void pendingAction()
+    {
+        //xu ly truong hop nhan vat chet sau do hoi sinh khong nhan dc skill sau khi giet quai
+        if (isEnableTransformSkill)
+        {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<main_character_2>().canTransform = true;
+        }
+        if (isEnableKunaiSkill)
+        {
+            //GameObject.FindGameObjectWithTag("Player").GetComponent<main_character_2>().canTransform = true;
         }
     }
     public void ChangeSavePoint(Transform t)

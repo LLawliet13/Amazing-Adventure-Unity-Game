@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 0.5
-  KunaiPrefab: {fileID: 1950666349447911835, guid: 107ede0419d615b4097a3d531853e21f, type: 3}
+  KunaiPrefab: {fileID: 1950666349447911835, guid: c6ff340f84eff7c4b962173e8db08f1f, type: 3}
   CuuViFirePrefab: {fileID: 4187335354642503161, guid: 5fe8369c54846854fbc2a890f3a98578, type: 3}
 --- !u!1 &4332782390043291419
 GameObject:
@@ -666,3 +666,4 @@ MonoBehaviour:
   DEF: 1
   HpBarRect: {fileID: 0}
   HpText: {fileID: 0}
+  ATK: 10

@@ -123,3 +123,4 @@ MonoBehaviour:
   Player:
     serializedVersion: 2
     m_Bits: 64
+  ATK: 1000

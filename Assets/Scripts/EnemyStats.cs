@@ -17,8 +17,8 @@ public class EnemyStats : MonoBehaviour
     [SerializeField]
     private RectTransform HpBarRect;
    
-    [SerializeField]
-    private TextMeshProUGUI HpText;
+    //[SerializeField]
+    //private TextMeshProUGUI HpText;
     private int currentHP;
     void Start()
     {
@@ -37,11 +37,11 @@ public class EnemyStats : MonoBehaviour
             Debug.LogError(gameObject.name);
 
         }
-        if (HpText == null)
-        {
-            Debug.LogError("no HpText reference");
+        //if (HpText == null)
+        //{
+        //    Debug.LogError("no HpText reference");
 
-        }
+        //}
 
         if (currentHP <= 0) GameMasterController.Kill(gameObject);
     }
@@ -49,12 +49,17 @@ public class EnemyStats : MonoBehaviour
     {
         float value = (float)current/max;
         HpBarRect.localScale = new Vector3(value, HpBarRect.localScale.y, HpBarRect.localScale.z);
-        HpText.text = current +"/"+max+" HP";
+        //HpText.text = current +"/"+max+" HP";
     }
-    public void getDamage(int damage)
+    public void getDamage(float damage)
     {
         this.currentHP -= (int)(damage/DEF);
         setHp(currentHP, HP);
+    }
+    public int ATK = 10;
+    public void GiveDamage(Collider2D collision)
+    {
+        collision.GetComponent<CharacterStats>().getDamage(ATK);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -64,11 +69,11 @@ public class EnemyStats : MonoBehaviour
         //    this.HP -= (int)WeaponStats.kunai / DEF;
         //    Debug.Log("Damaged");
         //}
-        if(collision.gameObject.tag == "Kunai") {
-            if (transform.name == "Boss_kakashi") return;// kakashi mien nhiem sat thuong cua kunai
-        this.currentHP -= (int)WeaponStats.kunai / DEF;
-        setHp(currentHP, HP);
-        Debug.Log(this.currentHP);
-        }
+        //if(collision.gameObject.tag == "Kunai") {
+        //    if (transform.name == "Boss_kakashi") return;// kakashi mien nhiem sat thuong cua kunai
+        //this.currentHP -= (int)WeaponStats.kunai / DEF;
+        //setHp(currentHP, HP);
+        //Debug.Log(this.currentHP);
+        //}
     }
 }

@@ -13,10 +13,11 @@ public class LightingBall : MonoBehaviour
 
     // Update is called once per frame
     public Transform lighting_ball_point_center;
-    public float radius = 5f;
+    public float radius = 3f;
     public LayerMask Player;
-    private float delayAttackTime = 1f;
+    private float delayAttackTime = 2f;
     private float attackTime = 0;
+    public int ATK;
     void Update()
     {
         if (lighting_ball_point_center == null) return;
@@ -25,8 +26,8 @@ public class LightingBall : MonoBehaviour
             Collider2D[] collisions = Physics2D.OverlapCircleAll(lighting_ball_point_center.position, radius, Player);
             foreach (Collider2D e in collisions)
             {
-
-                e.GetComponent<CharacterStats>().getDamage(5000);
+                if(e.gameObject.layer.ToString() == "Player")
+                e.GetComponent<CharacterStats>().getDamage(ATK);
 
             }
             attackTime = Time.time + delayAttackTime;

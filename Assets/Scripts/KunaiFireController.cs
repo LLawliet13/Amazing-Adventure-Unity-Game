@@ -17,30 +17,12 @@ public class KunaiFireController : MonoBehaviour
        
     }
     public float delayTime = 0.5f;
-    float firedTime = 0;
     public Transform KunaiPrefab;
     public Transform CuuViFirePrefab;
     // Update is called once per frame
     void Update()
     {
-        //if(mc.tag == "Player")
-        //if(delayTime == 0)
-        //{
-        //    if (Input.GetMouseButton(0))
-        //    {
-        //            Debug.Log("shooted");
-        //        shoot();
-        //    }
-        //}
-        //else
-        //{
-        //    if(Input.GetMouseButton(0)&& Time.time > firedTime)
-        //    {
-        //            Debug.Log("shooted");
-        //        shoot();
-        //        firedTime = Time.time + delayTime;
-        //    }
-        //}
+        
     }
     float scale;
     int rotationOffset = 0;
