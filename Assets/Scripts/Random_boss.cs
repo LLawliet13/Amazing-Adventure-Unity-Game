@@ -220,7 +220,6 @@ public class Random_boss : MonoBehaviour
         }
     }
     /// /////////////////////////support attackMechanics-end/////////////////////////////////////////////////
-    public Transform LowestGround;
     public Transform targetMove;// day la cac ground center 
     public int currentTargetMoveIndex = 0;
     public List<Transform> targetMoves = new List<Transform>();

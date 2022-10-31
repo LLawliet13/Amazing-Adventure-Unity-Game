@@ -21,12 +21,13 @@ public class DragonWarriorControl : MonoBehaviour
         isRight = true;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        
-            try {
+
+        try
+        {
             a = GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>();
-                Physics2D.IgnoreCollision(a, GetComponent<CircleCollider2D>(), true);
-            }
-            catch { }
+            Physics2D.IgnoreCollision(a, GetComponent<CircleCollider2D>(), true);
+        }
+        catch { }
         fightLeftBoundRange = transform.position.x - 50;
         fightRightBoundRange = transform.position.x + 50;
         fightDownBoundRange = transform.position.y - 50;
@@ -34,6 +35,7 @@ public class DragonWarriorControl : MonoBehaviour
     }
     GameObject weapon_trigger = null;
     // Update is called once per frame
+    float attackTime = 0;
     void Update()
     {
         try
@@ -62,8 +64,12 @@ public class DragonWarriorControl : MonoBehaviour
                 && player.transform.position.y >= fightDownBoundRange && player.transform.position.y <= fightUpBoundRange
                 && weapon_trigger == null)
             {
-                weapon_trigger = Instantiate(weapon, transform.position, Quaternion.identity);
-                Destroy(weapon_trigger, 10);
+                if (Time.time > attackTime)
+                {
+                    weapon_trigger = Instantiate(weapon, transform.position, Quaternion.identity);
+                    attackTime = Time.time + 5;
+                    Destroy(weapon_trigger, 10);
+                }
             }
         }
     }

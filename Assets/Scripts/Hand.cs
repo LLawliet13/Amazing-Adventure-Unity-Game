@@ -17,7 +17,7 @@ public class Hand : MonoBehaviour
         
         if (transform.parent.name == "MainCharacter"|| LayerMask.LayerToName(transform.parent.gameObject.layer) == "Player")
         diff = Camera.main.ScreenToWorldPoint(Input.mousePosition)- transform.position;
-        if(transform.parent.name == "Boss_kakashi")
+        if(transform.parent.name.Contains("Boss"))
         {
             GameObject mainCharacter = GameObject.FindGameObjectWithTag("Player");
             if (mainCharacter == null)

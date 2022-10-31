@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class KakashiBossRemake : MonoBehaviour
+public class KakashiBossRemake
+
+   : MonoBehaviour
 {
 
 
@@ -13,40 +15,115 @@ public class KakashiBossRemake : MonoBehaviour
     public Transform leftRange;
     public Transform startLocation;
     public Transform rightRange;
-    public Collider2D A;
     public Transform GroundCheckPoint;
     public void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        try
-        {
-            Physics2D.IgnoreCollision(GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>()
-    , GetComponent<BoxCollider2D>(), true);
-        }
-        catch
-        {
-            Debug.Log("No Character Found");
-        }
+        
         //start up
         animator.Play("stand");
         rb.freezeRotation = true;
         LoadSkill();
-
     }
 
     public void normal_attack()
     {
         animator.Play("normal_attack");
+        meleeAttack();
     }
+    public void jump_attack()
+    {
+        meleeAttack();
+        animator.Play("jump_attack");
+    }
+    bool animationDelay = false;
+    float delayTime;
+    public void teleport_light_ball()
+    {
+        Transform Hand = getChildByName("Hand", transform);
+        Transform fightPoint = getChildByName("FirePoint", Hand);
+        Transform lighting_ball_point = getChildByName("lighting_ball_point", fightPoint);
+        Vector3 currentCharLocation = player.transform.position;
+        if (lighting_ball_point != null)
+        {
+            Debug.Log("animationDelay" + animationDelay);
+            Debug.Log("Start Time" + Time.time);
+            if (animationDelay == false)
+            {
+                animator.Play("teleport_light_ball");
+                animationDelay = true;
+                delayTime = Time.time + 2.3f;
+                return;
+            }
+            Debug.Log("delayTime" + delayTime);
+            //StartCoroutine(WaitAndTranform());
+            if (animationDelay == true && Time.time > delayTime)
+            {
+                Debug.Log("Time Trigger" + Time.time);
+                transform.position = new Vector3(currentCharLocation.x - 2, currentCharLocation.y + 0.5f, currentCharLocation.z);
+                lighting_ball_point.GetComponent<LightingBallController>().shoot();
+                animationDelay = false;
+                return;
+            }
 
+        }
+    }
+    float timeToNextUseKunai = 0;
+    public void throw_kunai()
+    {
+        if (!isFloating)
+            animator.Play("throw");
+        else animator.Play("jump_throw");
+        Transform Hand = getChildByName("Hand", transform);
+        Transform fightPoint = getChildByName("FirePoint", Hand);
+        Transform kunai = getChildByName("Kunai", fightPoint);
+        if (Time.time > timeToNextUseKunai)
+        {
+            kunai.GetComponent<KunaiFireController>().shoot("kunai");
+            timeToNextUseKunai = Time.time + 1;
+        }
+    }
+    public void teleport()
+    {
+        Vector3 currentCharLocation = player.transform.position;
+        if (animationDelay == false)
+        {
+            animator.Play("teleport");
+            animationDelay = true;
+            delayTime = Time.time + 1f;
+            return;
+        }
+        if (animationDelay == true && Time.time > delayTime)
+        {
+            transform.position = new Vector3(currentCharLocation.x - 2, currentCharLocation.y + 0.5f, currentCharLocation.z);
+            animationDelay = false;
+        }
+    }
+    //khi them ki nang nho rang y cua skill nhan vat nen de lon hon hoac bang 3
     private void LoadSkill()
     {
 
-        //skillList.Add("normal_attack",
-        //    new Skill("normal_attack", 0, 5, 5, false, false, 1,
-        //    new Action(normal_attack)
-        //    ));
+        skillList.Add("normal_attack",
+            new Skill("normal_attack", 1, 3, 3, false, false, 1,
+            new Action(normal_attack)
+            ));
+        skillList.Add("jump_attack",
+            new Skill("jump_attack", 1, 3, 1, true, false, 1,
+            new Action(jump_attack)
+            ));
+        skillList.Add("teleport_light_ball",
+            new Skill("teleport_light_ball", 55, 500, 500, true, false, 2.5f,
+            new Action(teleport_light_ball)
+            ));
+        skillList.Add("throw_kunai",
+            new Skill("throw_kunai", 15, 500, 500, false, false, 1f,
+            new Action(throw_kunai)
+            ));
+        skillList.Add("teleport",
+            new Skill("teleport", 30, 500, 500, true, false, 2f,
+            new Action(teleport)
+            ));
     }
     // Update is called once per frame
     public void Update()
@@ -56,9 +133,12 @@ public class KakashiBossRemake : MonoBehaviour
         {
             Physics2D.IgnoreCollision(GameObject.FindGameObjectWithTag("Player")
                 .GetComponent<BoxCollider2D>(), GetComponent<BoxCollider2D>(), true);
+            Physics2D.IgnoreCollision(GameObject.FindGameObjectWithTag("Player")
+                .GetComponent<CapsuleCollider2D>(), GetComponent<BoxCollider2D>(), true);
         }
         catch
         {
+            Debug.Log("No Character Found");
             return;
         }
         Mechanics();
@@ -68,7 +148,6 @@ public class KakashiBossRemake : MonoBehaviour
     }
 
 
-    bool animationDelay = false;
     /// <summary>
     /// ////////////////////////////////////////////////////////
     /// </summary>
@@ -123,7 +202,8 @@ public class KakashiBossRemake : MonoBehaviour
     public void Mechanics()
     {
         isAction = AttackMechanics();
-        if (!isAction)
+        if (isAction) addBorderWhenStand();
+        else
         {
             FollowMechanics();
         }
@@ -132,46 +212,48 @@ public class KakashiBossRemake : MonoBehaviour
     {
         if (Time.time >= TimeToUseNextSkill)
         {
+            isAction = false;
             checkSkillCooldown();// check xem cac chieu nao cooldown da het;
 
-            if (!isAction)
-            {
-                possibleSkill = new List<Skill>();
-                possibleSkill = checkPossibleSkill();//cac skill dang chua cooldown
-                if (possibleSkill.Count == 0) return false;// k co skill de dung`
-                possibleSkill = selectSkillBaseRangeAttack(possibleSkill, player);// dong thoi check co the tan cong tren khong khong
-                possibleSkill = selectSkillCoolDownBase(possibleSkill);//uu tien lay cac skill co cooldown dai nhat
-                if (possibleSkill == null || possibleSkill.Count == 0) return false;
-                isNeedRandomSkill = possibleSkill.Count == 1 ? false : true;
-                if (isNeedRandomSkill)
-                {
-                    skillNameSelected = randomSkill(possibleSkill).name;
-                }
-                else
-                {
-                    skillNameSelected = possibleSkill.ElementAt(0).name;
-                    isAction = true;
-                    isPrepareUsingSkill = true; //-> thuc hien cac buoc can lam truoc khi dung skill
-                }
-                // thuc hien danh gia
 
+            possibleSkill = new List<Skill>();
+            possibleSkill = checkPossibleSkill();//cac skill dang chua cooldown
+            if (possibleSkill.Count == 0) return false;// k co skill de dung`
+            possibleSkill = selectSkillBaseRangeAttack(possibleSkill, player);// dong thoi check co the tan cong tren khong khong
+            possibleSkill = selectSkillCoolDownBase(possibleSkill);//uu tien lay cac skill co cooldown dai nhat
+            if (possibleSkill == null || possibleSkill.Count == 0) return false;
+            isNeedRandomSkill = possibleSkill.Count == 1 ? false : true;
+            if (isNeedRandomSkill)
+            {
+                skillNameSelected = randomSkill(possibleSkill).name;
             }
             else
             {
-
-                if (isPrepareUsingSkill)
-                {
-                    TimeToUseNextSkill = Time.time + skillList[skillNameSelected].SkillDuration;
-                    skillList[skillNameSelected].isCooldown = true;
-                    skillList[skillNameSelected].timeToNextUse = Time.time + skillList[skillNameSelected].cooldown;
-                    isPrepareUsingSkill = false;
-
-                }
-
-                skillList[skillNameSelected].SkillAction();
+                skillNameSelected = possibleSkill.ElementAt(0).name;
+                isPrepareUsingSkill = true; //-> thuc hien cac buoc can lam truoc khi dung skill
+            }
+            if (isPrepareUsingSkill)
+            {
+                skillList[skillNameSelected].isCooldown = true;
+                skillList[skillNameSelected].timeToNextUse = Time.time + skillList[skillNameSelected].cooldown;
+                Debug.Log("skillList[skillNameSelected].timeToNextUse" + skillList[skillNameSelected].timeToNextUse + "skillNameSelected" + skillNameSelected);
+                TimeToUseNextSkill = Time.time + skillList[skillNameSelected].SkillDuration;
+                isPrepareUsingSkill = false;
+                isAction = true;
 
             }
+            // thuc hien danh gia
+
+
         }
+        else
+        {
+            if (isAction)
+            {
+                skillList[skillNameSelected].SkillAction();
+            }
+        }
+
         return isAction;
 
 
@@ -193,7 +275,7 @@ public class KakashiBossRemake : MonoBehaviour
     public List<Skill> selectSkillCoolDownBase(List<Skill> skills)
     {
         if (skills.Count == 0) return null;
-        skills.OrderByDescending(p => p.cooldown);
+        skills = skills.OrderByDescending(p => p.cooldown).ToList();
         float max_cooldown = skills[0].cooldown;
         return skills.Where(s => s.cooldown == max_cooldown).ToList();
     }
@@ -202,6 +284,8 @@ public class KakashiBossRemake : MonoBehaviour
         List<Skill> skillList = new List<Skill>();
         foreach (var skill in skills)
         {
+            //&&
+            //    isFloating == skill.canFloating
             if (Mathf.Abs(transform.position.x - followObject.position.x) <= skill.xRange &&
                 Mathf.Abs(transform.position.y - followObject.position.y) <= skill.yRange &&
                 isFloating == skill.canFloating)
@@ -216,7 +300,7 @@ public class KakashiBossRemake : MonoBehaviour
         int skillIndex = Random.Range(0, skills.Count - 1);
         return skills.ElementAt(skillIndex);
     }
-    public Transform player;
+    private Transform player;
 
     public void checkSkillCooldown()
     {
@@ -229,10 +313,9 @@ public class KakashiBossRemake : MonoBehaviour
         }
     }
     /// /////////////////////////support attackMechanics-end/////////////////////////////////////////////////
-    public Transform LowestGround;
-    public Transform targetMove;// day la cac ground center 
-    public int currentTargetMoveIndex = 0;
-    public List<Transform> targetMoves = new List<Transform>();
+    //public Transform LowestGround;
+    private int currentTargetMoveIndex = 0;
+    private List<Transform> targetMoves = new List<Transform>();
     private float relaxDuration = 0;
     private float TimeToRelaxTime = 20;//time cua 1 lan update
     int count = 0;
@@ -266,7 +349,7 @@ public class KakashiBossRemake : MonoBehaviour
 
 
     }
-    public float meleeAttackRange = 15;
+    public float meleeAttackRange = 2.5f;
     private float jumpVelocity = 50;
     private float runVelocity = 10;
     public void followPath(List<Transform> targetMoves)
@@ -274,14 +357,22 @@ public class KakashiBossRemake : MonoBehaviour
         if (targetMoves.Count == 0)
         {
             Vector3 newPos;
-            if (Mathf.Abs(transform.position.x - player.position.x) <= 0.5)
+            if (Mathf.Abs(transform.position.x - player.position.x) <= meleeAttackRange)
             {
                 newPos = new Vector3(transform.position.x, player.position.y, transform.position.z);
             }
             else
             {
+                if (player.position.x > transform.position.x)
+                {
+                    newPos = new Vector3(player.position.x - meleeAttackRange, player.position.y, transform.position.z);
+                }
+                else
+                {
+
+                    newPos = new Vector3(player.position.x + meleeAttackRange, player.position.y, transform.position.z);
+                }
                 animator.Play("run");
-                newPos = new Vector3(player.position.x - meleeAttackRange, player.position.y, transform.position.z);
             }
             transform.position = Vector3.MoveTowards(transform.position, newPos, runVelocity * Time.deltaTime);
             return;
@@ -517,7 +608,6 @@ public class KakashiBossRemake : MonoBehaviour
         {
             Vector3 currentCharLocation = player.transform.position;
             Vector3 currentBossLocation = transform.position;
-            Physics2D.IgnoreCollision(player.transform.GetComponent<BoxCollider2D>(), GetComponent<BoxCollider2D>(), true);
             ChangeMoveAction("rotate", (currentCharLocation.x < currentBossLocation.x ? "left" : "right"));
 
         }
@@ -560,25 +650,19 @@ public class KakashiBossRemake : MonoBehaviour
     }
     bool isFloating = true;
     bool directionRight = true;
-    Vector3 lastVelocity;
-    float LastTimeInteract;
-
 
 
 
     //Status: building
-    string currentAnimation;
     //animation name:
     //- stand
     //- run
     //-teleport
-    float startTimeAnimation;
-    float endTimeAnimation;
 
 
 
     public Transform attack_point;
-    public float radius = 1.8f;
+    public float radius = 4f;
     public LayerMask Player;
     private float delayAttackTime = 1f;
     private float attackTime = 0;
