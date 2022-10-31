@@ -29,7 +29,6 @@ public class camera_follow : MonoBehaviour
             Vector3 newPos = new Vector3(followObject.transform.position.x, followObject.transform.position.y, -10f);
             TempV = speed * (Math.Abs(followObject.transform.localScale.x / scaleFollowObject.x)) *
                 Vector3.Distance(transform.position, newPos) /standardRange;
-            Debug.Log(speed);
 
             transform.position = Vector3.MoveTowards(transform.position, newPos, TempV * Time.deltaTime);
 

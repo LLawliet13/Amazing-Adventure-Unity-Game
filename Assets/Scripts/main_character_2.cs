@@ -22,6 +22,27 @@ public class main_character_2 : MonoBehaviour
         cam = Camera.main;
         startCameraScale = cam.orthographicSize;
         normalCharScale = transform.localScale;
+        LoadData();
+
+    }
+    private void OnDisable()
+    {
+        PlayerPrefs.Save();
+    }
+    private void LoadData()
+    {
+        if (PlayerPrefs.HasKey("canTransform"))
+        {
+            if(PlayerPrefs.GetInt("canTransform")==1)
+                canTransform = true;
+            else
+                canTransform = false;
+        }
+    }
+    private void SaveData()
+    {
+
+        PlayerPrefs.SetInt("canTransform", canTransform == true ? 1 : 0);
 
     }
     Dictionary<String, AnimationCustom> animationPriority = new Dictionary<string, AnimationCustom>();
@@ -92,7 +113,7 @@ public class main_character_2 : MonoBehaviour
     public bool canTransform = false;
     public void Transform()
     {
-        if (canTransform)
+        if (canTransform&&gameObject.tag=="Player")
         {
             if (isNaruto)
             {
@@ -124,7 +145,7 @@ public class main_character_2 : MonoBehaviour
     {
 
         MovingProcess();
-
+        SaveData();
 
 
 
@@ -356,7 +377,7 @@ public class main_character_2 : MonoBehaviour
     }
     float jumpVelocity = 20f;
     float runVelocity = 8f;
-    float slideVelocity = 13f;
+    float slideVelocity = 25f;
     void Action(string actionName, string direction)
     {
         if (actionName == "jump")
@@ -500,9 +521,20 @@ public class main_character_2 : MonoBehaviour
             if (copy_char.Count <= sizeXCopySpell)
             {
                 copy_char.Add(Instantiate(copyspell_character,
-                    new Vector3(transform.position.x - sizeXCopySpell, transform.position.y, 0), Quaternion.identity))
+                    new Vector3(transform.position.x - sizeXCopySpell/5, transform.position.y+1, 0), Quaternion.identity))
                 ;
             }
+        }
+    }
+    public void CancelAllCopyChar()
+    {
+        foreach (var c in copy_char)
+        {
+            if (c != null)
+            {
+                Destroy(c);
+            }
+
         }
     }
     public float camEdgePosition(String edge)

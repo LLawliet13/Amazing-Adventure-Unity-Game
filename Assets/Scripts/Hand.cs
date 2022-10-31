@@ -14,7 +14,8 @@ public class Hand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.parent.name == "MainCharacter"||transform.parent.tag=="Player")
+        
+        if (transform.parent.name == "MainCharacter"|| LayerMask.LayerToName(transform.parent.gameObject.layer) == "Player")
         diff = Camera.main.ScreenToWorldPoint(Input.mousePosition)- transform.position;
         if(transform.parent.name == "Boss_kakashi")
         {

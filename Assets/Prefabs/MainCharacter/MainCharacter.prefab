@@ -596,6 +596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bbab56c1a9e814598cd45021d67d28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canTransform: 0
   grounds:
     serializedVersion: 2
     m_Bits: 128
@@ -609,7 +610,7 @@ MonoBehaviour:
   enemies:
     serializedVersion: 2
     m_Bits: 512
-  copyspell_character: {fileID: 462627387310550219, guid: addc72baa06d2f04099715af5f7bed9a, type: 3}
+  copyspell_character: {fileID: 1329942418823356416, guid: 66573bc3ffc9dac43a83505037b7a3df, type: 3}
   sizeXCopySpell: 5
   cam: {fileID: 0}
   startCameraScale: 0
@@ -646,7 +647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea953364c0cfe504289841d6a3c2f0f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 1000
+  HP: 150
   DEF: 10
   HpBarRect: {fileID: 0}
   HpText: {fileID: 0}

@@ -18,9 +18,11 @@ public class CharacterStats : MonoBehaviour
     private int currentHP;
     void Start()
     {
+        currentHP = HP;
         if (transform.tag == "Player")
         {
 
+            LoadData();
             if (HpBarRect == null)
             {
                 HpBarRect = GameObject.FindGameObjectWithTag("HpBar_Character").GetComponent<RectTransform>();
@@ -30,8 +32,7 @@ public class CharacterStats : MonoBehaviour
                 HpText = GameObject.FindGameObjectWithTag("HpText_Character").GetComponent<TextMeshProUGUI>();
             }
         }
-        currentHP = HP;
-        setHp(HP, HP);
+        setHp(currentHP, HP);
 
     }
 
@@ -49,13 +50,54 @@ public class CharacterStats : MonoBehaviour
         //    Debug.LogError("no HpText reference");
 
         //}
-        isCuuViTime();
+        if (transform.tag == "Player")
+        {
+
+            isCuuViTime();
+            SaveData();
+
+
+        }
         if (currentHP <= 0 || transform.position.y <= -100)
         {
             setHp(0, HP);
+            transform.GetComponent<main_character_2>().CancelAllCopyChar();
             GameMasterController.KillAndRespawnCharacter(gameObject);
-
         }
+
+    }
+    private void LoadData()
+    {
+
+        if (PlayerPrefs.HasKey("isPlaying"))
+        {
+            if (PlayerPrefs.GetInt("isPlaying") == 0)
+            {
+                if (PlayerPrefs.HasKey("CurrentHP"))
+                {
+                    currentHP = PlayerPrefs.GetInt("CurrentHP");
+                }
+                if (PlayerPrefs.HasKey("CharacterLocationX"))
+                {
+                    transform.position = new Vector3(PlayerPrefs.GetFloat("CharacterLocationX")
+                        , PlayerPrefs.GetFloat("CharacterLocationY"), PlayerPrefs.GetFloat("CharacterLocationZ"));
+                }
+            }
+        }
+
+    }
+    private void SaveData()
+    {
+        PlayerPrefs.SetInt("CurrentScene", 1);
+        PlayerPrefs.SetFloat("CharacterLocationX", transform.position.x);
+        PlayerPrefs.SetFloat("CharacterLocationY", transform.position.y);
+        PlayerPrefs.SetFloat("CharacterLocationZ", transform.position.z);
+        PlayerPrefs.SetInt("CurrentHP", this.currentHP);
+    }
+    private void OnDisable()
+    {
+        SaveData();
+        PlayerPrefs.Save();
     }
 
     public void setHp(int current, int max)
@@ -99,7 +141,7 @@ public class CharacterStats : MonoBehaviour
     {
         // tru hp khi trong trang thai cuu vi
         if (!GameObject.FindGameObjectWithTag("Player").GetComponent<main_character_2>().IsNaruto()
-            &&Time.time>=timeTobeDecreaseHP)
+            && Time.time >= timeTobeDecreaseHP)
         {
             currentHP = currentHP - 10;
             setHp(currentHP, HP);

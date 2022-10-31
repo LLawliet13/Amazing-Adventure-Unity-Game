@@ -73,7 +73,13 @@ public class Kakashi_boss : MonoBehaviour
 
         if (followChar == null)
         {
+            try {
             followChar = GameObject.FindGameObjectWithTag("Player").gameObject;
+            }
+            catch
+            {
+                followChar = null;
+            }
             // return neu k tim thay
             if (followChar == null)
             {

@@ -69,7 +69,6 @@ public class EnemyFollowerType : MonoBehaviour
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
             {
-                Debug.Log("player" + player);
                 target = player.transform;
             }
             else

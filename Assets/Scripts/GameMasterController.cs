@@ -11,12 +11,19 @@ public class GameMasterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.SetInt("isPlaying", 1);
+
         if (gm == null)
         {
             gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMasterController>();
         }
+        LoadData();
     }
-    
+    private void OnDisable()
+    {
+        PlayerPrefs.SetInt("isPlaying", 0);
+        PlayerPrefs.Save();
+    }
     public static void Respawn(Transform character,Vector3 location,Quaternion quaternion)
     {
         Instantiate(character, location,quaternion);
@@ -25,11 +32,27 @@ public class GameMasterController : MonoBehaviour
     {
         Destroy(gameObject);
     }
+    public void saveData()
+    {
+        PlayerPrefs.SetFloat("RespawnPointX", RespawnPoint.position.x);
+        PlayerPrefs.SetFloat("RespawnPointY", RespawnPoint.position.y);
+        PlayerPrefs.SetFloat("RespawnPointZ", RespawnPoint.position.z);
+    }
+    public void LoadData()
+    {
+        if (PlayerPrefs.HasKey("RespawnPointX"))
+        {
+            RespawnPoint.position = new Vector3(PlayerPrefs.GetFloat("RespawnPointX", RespawnPoint.position.x),
+            PlayerPrefs.GetFloat("RespawnPointY", RespawnPoint.position.y),
+            PlayerPrefs.GetFloat("RespawnPointZ", RespawnPoint.position.z));
+        }
+    }
     // Update is called once per frame
     void Update()
     {
         ObtainKunai();
         ObtainTransformSkill();
+        saveData();
     }
     [SerializeField]
     public GameObject MainCharacter;
@@ -45,6 +68,7 @@ public class GameMasterController : MonoBehaviour
     public static void KillAndRespawnCharacter(GameObject player)
     {
         Destroy(player);
+        if(player.tag =="Player")
         gm.StartCoroutine(gm.RespawnCharacter());
     }
 

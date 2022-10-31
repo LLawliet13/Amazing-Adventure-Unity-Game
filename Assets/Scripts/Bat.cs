@@ -82,7 +82,7 @@ public class Bat : MonoBehaviour
     bool isBack = true;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
             target = beforeAttack;
             EnemyStats es = transform.GetComponent<EnemyStats>();
